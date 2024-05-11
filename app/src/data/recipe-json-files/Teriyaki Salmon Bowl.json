@@ -1,0 +1,147 @@
+{
+    "name": "Teriyaki Salmon Bowl",
+    "description": "Teriyaki Salmon Bowl",
+    "img": "https://www.allrecipes.com/thmb/IpG5l50vgrnppqOttOxwYJJjU_w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8624279_Teriyaki-Salmon-Bowl_Maura-Rawlette_4x3-7113201f210b48e1b14e23a61a62217c.jpg",
+    "ingredients": [
+        {
+            "name": "low-sodium soy sauce",
+            "main_ingredient": "soy sauce",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "brown sugar",
+            "main_ingredient": "sugar",
+            "classifier": "",
+            "amount": 3,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "small clove garlic",
+            "main_ingredient": "garlic",
+            "classifier": "small",
+            "amount": 1,
+            "unit": "clove"
+        },
+        {
+            "name": "fresh ginger",
+            "main_ingredient": "ginger",
+            "classifier": "fresh",
+            "amount": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "6 ounce salmon fillet",
+            "main_ingredient": "salmon",
+            "classifier": "6 ounce",
+            "amount": 1,
+            "unit": ""
+        },
+        {
+            "name": "grated carrots",
+            "main_ingredient": "carrots",
+            "classifier": "grated",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "radishes",
+            "main_ingredient": "radishes",
+            "classifier": "",
+            "amount": 2,
+            "unit": ""
+        },
+        {
+            "name": "red cabbage",
+            "main_ingredient": "cabbage",
+            "classifier": "red",
+            "amount": 1,
+            "unit": "cup"
+        },
+        {
+            "name": "cooked rice",
+            "main_ingredient": "rice",
+            "classifier": "cooked",
+            "amount": 1,
+            "unit": "cup"
+        },
+        {
+            "name": "sesame seeds",
+            "main_ingredient": "sesame seeds",
+            "classifier": "",
+            "amount": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "green onion",
+            "main_ingredient": "onion",
+            "classifier": "green",
+            "amount": 1,
+            "unit": ""
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Teriyaki Salmon Bowl-1",
+            "name": "Preheat Oven",
+            "description": "Preheat the oven to 400 degrees F (200 degrees C) and spray a baking dish with cooking spray.",
+            "time": 10,
+            "hardware": ["oven", "baking dish"],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Teriyaki Salmon Bowl-2",
+            "name": "Prepare Teriyaki Sauce",
+            "description": "Combine soy sauce, brown sugar, garlic, and ginger in a small bowl. Place the salmon in the prepared baking dish, skin side down. Pour teriyaki sauce over.",
+            "time": 2,
+            "hardware": ["small bowl", "baking dish"],
+            "ingredients": [
+                "low-sodium soy sauce",
+                "brown sugar",
+                "small clove garlic",
+                "fresh ginger",
+                "6 ounce salmon fillet"
+            ],
+            "active": 1,
+            "dependency": ["Teriyaki Salmon Bowl-1"],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Teriyaki Salmon Bowl-3",
+            "name": "Bake Salmon",
+            "description": "Bake in the preheated oven until fish flakes easily with a fork, 12 to 15 minutes.",
+            "time": 15,
+            "hardware": ["oven"],
+            "ingredients": [],
+            "active": 1,
+            "dependency": ["Teriyaki Salmon Bowl-2"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Teriyaki Salmon Bowl-4",
+            "name": "Assemble Bowl",
+            "description": "Place rice in a bowl, top with salmon, and spoon over teriyaki sauce from the baking dish. Add in the shredded cabbage, grated carrots, and radishes. Sprinkle with sliced green onions and sesame seeds, to garnish.",
+            "time": 1,
+            "hardware": ["bowl"],
+            "ingredients": [
+                "cooked rice",
+                "6 ounce salmon fillet",
+                "red cabbage",
+                "grated carrots",
+                "radishes",
+                "green onion",
+                "sesame seeds"
+            ],
+            "active": 1,
+            "dependency": ["Teriyaki Salmon Bowl-3"],
+            "order_id": "4"
+        }
+    ],
+    "prepTime": 30,
+    "cookTime": 16,
+    "servings": 1
+}

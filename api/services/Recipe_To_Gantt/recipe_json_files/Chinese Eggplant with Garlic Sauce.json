@@ -1,0 +1,250 @@
+{
+    "name": "Chinese Eggplant with Garlic Sauce",
+    "description": "Chinese Eggplant with Garlic Sauce",
+    "nutrients": {
+        "calories": "187 kcal",
+        "carbohydrateContent": "29 g",
+        "fiberContent": "13 g",
+        "proteinContent": "5 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "224 mg",
+        "sugarContent": "13 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "canola oil",
+            "main_ingredient": "oil",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "Chinese eggplants",
+            "main_ingredient": "eggplant",
+            "classifier": "",
+            "amount": 4.0,
+            "unit": ""
+        },
+        {
+            "name": "water",
+            "main_ingredient": "water",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "garlic powder",
+            "main_ingredient": "garlic",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "crushed red pepper flakes",
+            "main_ingredient": "red pepper",
+            "classifier": "crushed",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "light soy sauce",
+            "main_ingredient": "soy sauce",
+            "classifier": "light",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "oyster sauce",
+            "main_ingredient": "oyster sauce",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "white sugar",
+            "main_ingredient": "sugar",
+            "classifier": "white",
+            "amount": 5.0,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "cornstarch",
+            "main_ingredient": "cornstarch",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Cook and Stir Eggplant",
+            "description": "Heat oil in a large skillet over high heat. Cook and stir eggplant in hot oil until soft, about 4 minutes. Stir in water, garlic powder, and red pepper flakes. Cover and simmer until water is absorbed.",
+            "time": 240,
+            "hardware": [
+                "skillet"
+            ],
+            "ingredients": [
+                {
+                    "name": "canola oil",
+                    "main_ingredient": "oil",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "Chinese eggplants",
+                    "main_ingredient": "eggplant",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": ""
+                },
+                {
+                    "name": "water",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "garlic powder",
+                    "main_ingredient": "garlic",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "crushed red pepper flakes",
+                    "main_ingredient": "red pepper",
+                    "classifier": "crushed",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Mix Sauce",
+            "description": "Meanwhile, mix together soy sauce, oyster sauce, sugar, and cornstarch in a small bowl until sugar and cornstarch are dissolved.",
+            "time": 0,
+            "hardware": [
+                "bowl"
+            ],
+            "ingredients": [
+                {
+                    "name": "light soy sauce",
+                    "main_ingredient": "soy sauce",
+                    "classifier": "light",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "oyster sauce",
+                    "main_ingredient": "oyster sauce",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "white sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "white",
+                    "amount": 5.0,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "cornstarch",
+                    "main_ingredient": "cornstarch",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "3",
+            "name": "Finish Dish",
+            "description": "Stir sauce into eggplant until evenly coated. Continue cooking until sauce is thickened.",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "canola oil",
+                    "main_ingredient": "oil",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "Chinese eggplants",
+                    "main_ingredient": "eggplant",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": ""
+                },
+                {
+                    "name": "water",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "garlic powder",
+                    "main_ingredient": "garlic",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "crushed red pepper flakes",
+                    "main_ingredient": "red pepper",
+                    "classifier": "crushed",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "light soy sauce",
+                    "main_ingredient": "soy sauce",
+                    "classifier": "light",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "oyster sauce",
+                    "main_ingredient": "oyster sauce",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "white sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "white",
+                    "amount": 5.0,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "cornstarch",
+                    "main_ingredient": "cornstarch",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 0,
+            "dependency": [
+                "2"
+            ]
+        }
+    ],
+    "prepTime": 600,
+    "cookTime": 900,
+    "servings": 6
+}

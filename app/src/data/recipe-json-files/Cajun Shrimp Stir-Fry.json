@@ -1,0 +1,254 @@
+{
+    "name": "Cajun Shrimp Stir-Fry",
+    "description": "Cajun Shrimp Stir-Fry",
+    "img": "https://www.southernliving.com/thmb/GvWtvODe1s46GkmjIPTHZfiWYuw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/27722_SUPTskillet_DIGI_42920-70013ddc17e947bfaededfcc225a6944.jpg",
+    "nutrients": {},
+    "ingredients": [
+        {
+            "name": "1 lb. large peeled, deveined raw shrimp",
+            "main_ingredient": "shrimp",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "lb"
+        },
+        {
+            "name": "1 Tbsp. Cajun seasoning (such as Emeril’s)",
+            "main_ingredient": "Cajun seasoning",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "Tbsp"
+        },
+        {
+            "name": "3 Tbsp. canola oil, divided",
+            "main_ingredient": "canola oil",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "Tbsp"
+        },
+        {
+            "name": "6 oz. fresh snow peas, trimmed (about 1 cup)",
+            "main_ingredient": "snow peas",
+            "classifier": "",
+            "amount": 6.0,
+            "unit": "oz"
+        },
+        {
+            "name": "2 Tbsp. finely chopped garlic (about 6 cloves)",
+            "main_ingredient": "garlic",
+            "classifier": "finely chopped",
+            "amount": 2.0,
+            "unit": "Tbsp"
+        },
+        {
+            "name": "1 Tbsp. finely chopped fresh ginger",
+            "main_ingredient": "ginger",
+            "classifier": "finely chopped",
+            "amount": 1.0,
+            "unit": "Tbsp"
+        },
+        {
+            "name": "3 medium scallions, thinly sliced (white, light green, and dark green parts separated), divided",
+            "main_ingredient": "scallions",
+            "classifier": "thinly sliced",
+            "amount": 3.0,
+            "unit": "medium"
+        },
+        {
+            "name": "3 Tbsp. rice vinegar",
+            "main_ingredient": "rice vinegar",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "Tbsp"
+        },
+        {
+            "name": "1/4 cup unsalted butter, cut into 4 even pieces",
+            "main_ingredient": "butter",
+            "classifier": "unsalted",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "1 1/2 Tbsp. fish sauce",
+            "main_ingredient": "fish sauce",
+            "classifier": "",
+            "amount": 1.5,
+            "unit": "Tbsp"
+        },
+        {
+            "name": "2 tsp. fresh lime juice (from 1 lime)",
+            "main_ingredient": "lime juice",
+            "classifier": "fresh",
+            "amount": 2.0,
+            "unit": "tsp"
+        },
+        {
+            "name": "2 tsp. hot sauce (such as Tabasco)",
+            "main_ingredient": "hot sauce",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "tsp"
+        },
+        {
+            "name": "1/4 cup roasted, salted peanuts, chopped",
+            "main_ingredient": "peanuts",
+            "classifier": "roasted, salted, chopped",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "2 Tbsp. fresh cilantro leaves",
+            "main_ingredient": "cilantro leaves",
+            "classifier": "fresh",
+            "amount": 2.0,
+            "unit": "Tbsp"
+        },
+        {
+            "name": "Cooked white rice, for serving",
+            "main_ingredient": "white rice",
+            "classifier": "cooked",
+            "amount": 1.0,
+            "unit": "serving"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Cajun Shrimp Stirfry-1",
+            "name": "Marinate shrimp",
+            "description": "Place shrimp in a large bowl. Add Cajun seasoning and 1 tablespoon of the oil; toss to coat. Heat 1 tablespoon of the oil in a large skillet over medium-high. Add shrimp in an even layer; cook until browned on both sides but not fully cooked through, about 2 minutes total. Transfer shrimp to a large plate, and set aside.",
+            "time": "3",
+            "hardware": ["large bowl", "skillet"],
+            "ingredients": [
+                {
+                    "name": "1 lb. large peeled, deveined raw shrimp",
+                    "main_ingredient": "shrimp",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "lb"
+                },
+                {
+                    "name": "1 Tbsp. Cajun seasoning (such as Emeril’s)",
+                    "main_ingredient": "Cajun seasoning",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "Tbsp"
+                },
+                {
+                    "name": "3 Tbsp. canola oil, divided",
+                    "main_ingredient": "canola oil",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "Tbsp"
+                }
+            ],
+            "active": 1,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Cajun Shrimp Stirfry-2",
+            "name": "Cook stirfry",
+            "description": "Return skillet to medium; add remaining 1 tablespoon oil. Add snow peas, garlic, ginger, and white and light green parts of scallions; cook, stirring occasionally, until garlic and ginger are fragrant and snow peas are just tender-crisp, about 2 minutes. Add vinegar, and cook, stirring constantly, until almost fully reduced, about 1 minute. Reduce heat to low, and add butter, fish sauce, lime juice, and hot sauce, stirring until butter melts. Add shrimp; stir until coated in sauce and cooked through, about 2 minutes. Remove from heat; top with peanuts, cilantro, and dark green parts of scallions. Serve over rice.",
+            "time": "7",
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "3 Tbsp. canola oil, divided",
+                    "main_ingredient": "canola oil",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "Tbsp"
+                },
+                {
+                    "name": "6 oz. fresh snow peas, trimmed (about 1 cup)",
+                    "main_ingredient": "snow peas",
+                    "classifier": "",
+                    "amount": 6.0,
+                    "unit": "oz"
+                },
+                {
+                    "name": "2 Tbsp. finely chopped garlic (about 6 cloves)",
+                    "main_ingredient": "garlic",
+                    "classifier": "finely chopped",
+                    "amount": 2.0,
+                    "unit": "Tbsp"
+                },
+                {
+                    "name": "1 Tbsp. finely chopped fresh ginger",
+                    "main_ingredient": "ginger",
+                    "classifier": "finely chopped",
+                    "amount": 1.0,
+                    "unit": "Tbsp"
+                },
+                {
+                    "name": "3 medium scallions, thinly sliced (white, light green, and dark green parts separated), divided",
+                    "main_ingredient": "scallions",
+                    "classifier": "thinly sliced",
+                    "amount": 3.0,
+                    "unit": "medium"
+                },
+                {
+                    "name": "3 Tbsp. rice vinegar",
+                    "main_ingredient": "rice vinegar",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "Tbsp"
+                },
+                {
+                    "name": "1/4 cup unsalted butter, cut into 4 even pieces",
+                    "main_ingredient": "butter",
+                    "classifier": "unsalted",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "1 1/2 Tbsp. fish sauce",
+                    "main_ingredient": "fish sauce",
+                    "classifier": "",
+                    "amount": 1.5,
+                    "unit": "Tbsp"
+                },
+                {
+                    "name": "2 tsp. fresh lime juice (from 1 lime)",
+                    "main_ingredient": "lime juice",
+                    "classifier": "fresh",
+                    "amount": 2.0,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "2 tsp. hot sauce (such as Tabasco)",
+                    "main_ingredient": "hot sauce",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "1 lb. large peeled, deveined raw shrimp",
+                    "main_ingredient": "shrimp",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "lb"
+                },
+                {
+                    "name": "1/4 cup roasted, salted peanuts, chopped",
+                    "main_ingredient": "peanuts",
+                    "classifier": "roasted, salted, chopped",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "2 Tbsp. fresh cilantro leaves",
+                    "main_ingredient": "cilantro leaves",
+                    "classifier": "fresh",
+                    "amount": 2.0,
+                    "unit": "Tbsp"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Cajun Shrimp Stirfry-1"],
+            "order_id": "2"
+        }
+    ],
+    "prepTime": "0",
+    "cookTime": "10",
+    "servings": 4
+}

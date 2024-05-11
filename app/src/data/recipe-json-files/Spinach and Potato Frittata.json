@@ -1,0 +1,208 @@
+{
+    "name": "Spinach and Potato Frittata",
+    "description": "Spinach and Potato Frittata",
+    "img": "https://www.allrecipes.com/thmb/kI3f4UmHKRHS82424meid4d2znk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/47044-spinach-and-potato-frittata-DDMFS-4x3-127-977d4c356fdb4a469d87d22feda736e9.jpg",
+    "nutrients": {
+        "calories": "281 kcal",
+        "carbohydrateContent": "29 g",
+        "cholesterolContent": "197 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "13 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "175 mg",
+        "sugarContent": "3 g",
+        "fatContent": "13 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "olive oil",
+            "main_ingredient": "olive oil",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "small red potatoes",
+            "main_ingredient": "potato",
+            "classifier": "small",
+            "amount": 6.0,
+            "unit": ""
+        },
+        {
+            "name": "fresh spinach",
+            "main_ingredient": "spinach",
+            "classifier": "torn",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "green onions",
+            "main_ingredient": "onions",
+            "classifier": "sliced",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "garlic",
+            "main_ingredient": "garlic",
+            "classifier": "crushed",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "salt",
+            "classifier": "",
+            "amount": "",
+            "unit": "to taste"
+        },
+        {
+            "name": "pepper",
+            "main_ingredient": "pepper",
+            "classifier": "",
+            "amount": "",
+            "unit": "to taste"
+        },
+        {
+            "name": "eggs",
+            "main_ingredient": "eggs",
+            "classifier": "",
+            "amount": 6.0,
+            "unit": "large"
+        },
+        {
+            "name": "milk",
+            "main_ingredient": "milk",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "Cheddar cheese",
+            "main_ingredient": "cheese",
+            "classifier": "shredded",
+            "amount": 0.5,
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Spinach and Potato Frittata-1",
+            "name": "Gather ingredients",
+            "description": "Gather all ingredients.",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Spinach and Potato Frittata-2",
+            "name": "Cook potatoes",
+            "description": "Heat olive oil in a medium skillet over medium heat. Cook potatoes in hot oil, stirring occasionally, until tender but firm, about 10 minutes.",
+            "time": 600,
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "olive oil",
+                    "main_ingredient": "olive oil",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "small red potatoes",
+                    "main_ingredient": "potato",
+                    "classifier": "sliced",
+                    "amount": 6.0,
+                    "unit": ""
+                }
+            ],
+            "active": 1,
+            "dependency": ["Spinach and Potato Frittata-1"],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Spinach and Potato Frittata-3",
+            "name": "Add spinach and season",
+            "description": "Mix in spinach, green onions, and garlic. Season with salt and pepper. Cook and stir until spinach is wilted, 1 to 2 minutes.",
+            "time": 120,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "fresh spinach",
+                    "main_ingredient": "spinach",
+                    "classifier": "torn",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "green onions",
+                    "main_ingredient": "onions",
+                    "classifier": "sliced",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "garlic",
+                    "main_ingredient": "garlic",
+                    "classifier": "crushed",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Spinach and Potato Frittata-2"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Spinach and Potato Frittata-4",
+            "name": "Prepare egg mixture",
+            "description": "Beat together eggs and milk in a medium bowl. Pour over vegetables in the skillet. Sprinkle with Cheddar cheese. Reduce heat to low, cover, and cook until eggs are firm, 5 to 7 minutes.",
+            "time": 420,
+            "hardware": ["bowl"],
+            "ingredients": [
+                {
+                    "name": "eggs",
+                    "main_ingredient": "eggs",
+                    "classifier": "",
+                    "amount": 6.0,
+                    "unit": "large"
+                },
+                {
+                    "name": "milk",
+                    "main_ingredient": "milk",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Cheddar cheese",
+                    "main_ingredient": "cheese",
+                    "classifier": "shredded",
+                    "amount": 0.5,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Spinach and Potato Frittata-3"],
+            "order_id": "4"
+        },
+        {
+            "step_id": "Spinach and Potato Frittata-5",
+            "name": "Slice and serve",
+            "description": "Slice and enjoy!",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["Spinach and Potato Frittata-4"],
+            "order_id": "5"
+        }
+    ],
+    "prepTime": 30,
+    "cookTime": 20,
+    "servings": 6
+}

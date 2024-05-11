@@ -1,0 +1,166 @@
+{
+    "name": "Southern Baked Beans",
+    "description": "Southern Baked Beans",
+    "nutrients": {
+        "calories": "191 kcal",
+        "carbohydrateContent": "33 g",
+        "cholesterolContent": "17 mg",
+        "fiberContent": "5 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "506 mg",
+        "sugarContent": "17 g",
+        "fatContent": "3 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "lean ground beef",
+            "main_ingredient": "beef",
+            "classifier": "lean",
+            "amount": 8,
+            "unit": "ounces"
+        },
+        {
+            "name": "bacon",
+            "main_ingredient": "bacon",
+            "classifier": "diced",
+            "amount": 3,
+            "unit": "strips"
+        },
+        {
+            "name": "yellow onion",
+            "main_ingredient": "onion",
+            "classifier": "diced",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "green pepper",
+            "main_ingredient": "pepper",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "dark brown sugar",
+            "main_ingredient": "sugar",
+            "classifier": "packed",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "ketchup",
+            "main_ingredient": "ketchup",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "Worcestershire sauce",
+            "main_ingredient": "sauce",
+            "classifier": "",
+            "amount": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "yellow mustard",
+            "main_ingredient": "mustard",
+            "classifier": "",
+            "amount": 2,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "baked beans",
+            "main_ingredient": "beans",
+            "classifier": "",
+            "amount": 2,
+            "unit": "cans"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Gather Ingredients",
+            "description": "Gather all ingredients.",
+            "time": 600,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Preheat oven and Cook Ground Beef",
+            "description": "Preheat oven to 350 degrees F (175 degrees C). Cook ground beef on a large skillet over medium-high heat until browned.",
+            "time": 480,
+            "hardware": [
+                "oven",
+                "skillet"
+            ],
+            "ingredients": [
+                "lean ground beef"
+            ],
+            "active": 1,
+            "dependency": [
+                "1"
+            ]
+        },
+        {
+            "step_id": "3",
+            "name": "Cook Bacon",
+            "description": "Cook bacon in the same skillet 5 minutes.",
+            "time": 300,
+            "hardware": [
+                "skillet"
+            ],
+            "ingredients": [
+                "bacon"
+            ],
+            "active": 1,
+            "dependency": [
+                "2"
+            ]
+        },
+        {
+            "step_id": "4",
+            "name": "Cook Vegetables and Combine Ingredients",
+            "description": "Add onion and green pepper to skillet. Cook until bacon is crisp and onion is translucent. Add remaining ingredients, stir until combined.",
+            "time": 600,
+            "hardware": [
+                "skillet"
+            ],
+            "ingredients": [
+                "yellow onion",
+                "green pepper",
+                "dark brown sugar",
+                "ketchup",
+                "Worcestershire sauce",
+                "yellow mustard"
+            ],
+            "active": 1,
+            "dependency": [
+                "3"
+            ]
+        },
+        {
+            "step_id": "5",
+            "name": "Bake Beans",
+            "description": "Add ground beef mixture and beans to a baking dish, stir to combine. Bake until bubbly.",
+            "time": 2400,
+            "hardware": [
+                "baking dish"
+            ],
+            "ingredients": [
+                "baked beans"
+            ],
+            "active": 1,
+            "dependency": [
+                "4"
+            ]
+        }
+    ],
+    "prepTime": 600,
+    "cookTime": 3480,
+    "servings": 14
+}

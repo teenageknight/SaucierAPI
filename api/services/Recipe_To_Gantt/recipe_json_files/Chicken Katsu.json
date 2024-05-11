@@ -1,0 +1,157 @@
+{
+    "name": "Chicken Katsu",
+    "description": "Chicken Katsu",
+    "nutrients": {
+        "calories": "297 kcal",
+        "carbohydrateContent": "22 g",
+        "cholesterolContent": "118 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "31 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "251 mg",
+        "sugarContent": "0 g",
+        "fatContent": "11 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "skinless, boneless chicken breast halves",
+            "main_ingredient": "chicken",
+            "classifier": "",
+            "amount": 4.0,
+            "unit": "pieces"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "salt",
+            "classifier": "",
+            "amount": 0.0,
+            "unit": "to taste"
+        },
+        {
+            "name": "pepper",
+            "main_ingredient": "pepper",
+            "classifier": "",
+            "amount": 0.0,
+            "unit": "to taste"
+        },
+        {
+            "name": "all-purpose flour",
+            "main_ingredient": "flour",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "egg",
+            "main_ingredient": "egg",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "piece"
+        },
+        {
+            "name": "panko bread crumbs",
+            "main_ingredient": "bread crumbs",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "oil for frying",
+            "main_ingredient": "oil",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Coating the chicken",
+            "description": "Season chicken breasts on both sides with salt and pepper. Place flour, beaten egg, and panko crumbs into separate shallow dishes. Coat chicken breasts in flour, shaking off any excess; dip into egg, and then press into panko crumbs until well coated on both sides.",
+            "time": 0,
+            "hardware": [
+                "shallow dishes"
+            ],
+            "ingredients": [
+                {
+                    "name": "skinless, boneless chicken breast halves",
+                    "main_ingredient": "chicken",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": "pieces"
+                },
+                {
+                    "name": "salt",
+                    "main_ingredient": "salt",
+                    "classifier": "",
+                    "amount": 0.0,
+                    "unit": "to taste"
+                },
+                {
+                    "name": "pepper",
+                    "main_ingredient": "pepper",
+                    "classifier": "",
+                    "amount": 0.0,
+                    "unit": "to taste"
+                },
+                {
+                    "name": "all-purpose flour",
+                    "main_ingredient": "flour",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "egg",
+                    "main_ingredient": "egg",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "piece"
+                },
+                {
+                    "name": "panko bread crumbs",
+                    "main_ingredient": "bread crumbs",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Frying the chicken",
+            "description": "Heat oil in a large skillet over medium-high heat. Place chicken in the hot oil, and fry until golden brown, 3 or 4 minutes per side. Transfer to a paper towel-lined plate to drain.",
+            "time": 0,
+            "hardware": [
+                "skillet",
+                "paper towel"
+            ],
+            "ingredients": [
+                {
+                    "name": "skinless, boneless chicken breast halves",
+                    "main_ingredient": "chicken",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": "pieces"
+                },
+                {
+                    "name": "oil for frying",
+                    "main_ingredient": "oil",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "1"
+            ]
+        }
+    ],
+    "prepTime": 900,
+    "cookTime": 600,
+    "servings": 4
+}

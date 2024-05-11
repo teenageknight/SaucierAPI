@@ -1,0 +1,432 @@
+[
+    {
+        "recipe_id": "1",
+        "name": "Salted Margarita Bars",
+        "description": "",
+        "ingredients": [
+            "butter",
+            "saltine crackers",
+            "melted butter",
+            "granulated sugar",
+            "kosher salt",
+            "egg yolks",
+            "condensed milk",
+            "lime zest",
+            "lime juice",
+            "tequila",
+            "orange liqueur",
+            "salt",
+            "flaky salt"
+        ],
+        "steps": [
+            {
+                "step_id": "Salted Margarita Bars-1",
+                "name": "Heat the oven to 350 degrees.",
+                "description": "Heat the oven to 350 degrees.",
+                "time": 600,
+                "hardware": [
+                    "Oven"
+                ],
+                "ingredients": [],
+                "active": 0,
+                "dependency": [],
+                "order_id": 1
+            },
+            {
+                "step_id": "Salted Margarita Bars-2",
+                "name": "Grease a 9-inch square baking pan with butter",
+                "description": "Lightly grease a 9-inch square baking pan with butter (or use the wrapper from your stick of butter). Line the buttered pan with parchment, leaving an overhang on two sides. (This will help you pull the bars out of the pan easily.)",
+                "time": 2400,
+                "hardware": [
+                    "Baking Pan"
+                ],
+                "ingredients": [
+                    {
+                        "name": "butter",
+                        "amount": null,
+                        "unit": ""
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    "Salted Margarita Bars-1"
+                ],
+                "order_id": 2
+            },
+            {
+                "step_id": "Salted Margarita Bars-3",
+                "name": "Make the crust",
+                "description": "In a food processor, pulse the saltines until ground like coarse sand. (Alternatively, place them in a zip-top bag and use a rolling pin to crush them.) It’s OK if there are a few larger pieces. Add the melted butter, sugar and salt, and pulse a few more times until all the crumbs are evenly saturated (or mix to combine in a medium bowl).",
+                "time": 2400,
+                "hardware": [
+                    "Food Processor"
+                ],
+                "ingredients": [
+                    {
+                        "name": "saltine crackers",
+                        "amount": 40,
+                        "unit": ""
+                    },
+                    {
+                        "name": "melted butter",
+                        "amount": 0.5,
+                        "unit": "cup"
+                    },
+                    {
+                        "name": "granulated sugar",
+                        "amount": 1,
+                        "unit": "tablespoon"
+                    },
+                    {
+                        "name": "kosher salt",
+                        "amount": 1,
+                        "unit": "teaspoon"
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    "Salted Margarita Bars-2"
+                ],
+                "order_id": 3
+            },
+            {
+                "step_id": "Salted Margarita Bars-4",
+                "name": "Prepare the crust for freezing",
+                "description": "Pour the mixture into the lined pan, press into an even layer.",
+                "time": 120,
+                "hardware": [
+                    "Baking Pan"
+                ],
+                "ingredients": [],
+                "active": 1,
+                "dependency": [
+                    "Salted Margarita Bars-3"
+                ],
+                "order_id": 4
+            },
+            {
+                "step_id": "Salted Margarita Bars-5",
+                "name": "Freeze the crust",
+                "description": "Freeze the crust for about 15 minutes",
+                "time": 900,
+                "hardware": [
+                    "Freezer"
+                ],
+                "ingredients": [],
+                "active": 0,
+                "dependency": [
+                    "Salted Margarita Bars-4"
+                ],
+                "order_id": 5
+            },
+            {
+                "step_id": "Salted Margarita Bars-6",
+                "name": "Bake the crust",
+                "description": "After the crust has chilled, bake it until fragrant and golden brown, about 15 to 18 minutes",
+                "time": 1020,
+                "hardware": [
+                    "Oven"
+                ],
+                "ingredients": [],
+                "active": 0,
+                "dependency": [
+                    "Salted Margarita Bars-5"
+                ],
+                "order_id": 6
+            },
+            {
+                "step_id": "Salted Margarita Bars-7",
+                "name": "Make the filling",
+                "description": "While the crust cools, make the filling: In a liquid measuring cup or small bowl, combine the lime zest, lime juice, tequila, orange liqueur and salt.",
+                "time": 300,
+                "hardware": [
+                    "measuring cup OR bowl"
+                ],
+                "ingredients": [
+                    {
+                        "name": "lime zest",
+                        "amount": 2,
+                        "unit": "teaspoon"
+                    },
+                    {
+                        "name": "lime juice",
+                        "amount": 0.5,
+                        "unit": "cup"
+                    },
+                    {
+                        "name": "tequila",
+                        "amount": 0.25,
+                        "unit": "cup"
+                    },
+                    {
+                        "name": "orange liqueur",
+                        "amount": 2,
+                        "unit": "tablespoon"
+                    },
+                    {
+                        "name": "salt",
+                        "amount": 1,
+                        "unit": "pinch"
+                    }
+                ],
+                "active": 1,
+                "dependency": [],
+                "order_id": 7
+            },
+            {
+                "step_id": "Salted Margarita Bars-8",
+                "name": "Combine the filling with crust",
+                "description": "In a medium bowl, whisk together the yolks and sweetened condensed milk. Add the tequila-lime mixture to the yolk mixture, whisk to combine, then pour into the prepared crust. (It’s OK if the crust is not yet completely cool.) You may be tempted to prepare the curd earlier, but don’t do so more than 10 minutes before baking, as the lime juice will start to thicken it, which could affect the bake.",
+                "time": 300,
+                "hardware": [
+                    "bowl"
+                ],
+                "ingredients": [
+                    {
+                        "name": "egg yolks",
+                        "amount": 5,
+                        "unit": ""
+                    },
+                    {
+                        "name": "condensed milk",
+                        "amount": 14,
+                        "unit": "ounce"
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    "Salted Margarita Bars-6",
+                    "Salted Margarita Bars-7"
+                ],
+                "order_id": 8
+            },
+            {
+                "step_id": "Salted Margarita Bars-9",
+                "name": "Bake the filling with crust",
+                "description": "Bake 15 to 17 minutes until the curd is set around the edges and slightly jiggly in the center.",
+                "time": 960,
+                "hardware": [
+                    "oven"
+                ],
+                "ingredients": [],
+                "active": 0,
+                "dependency": [
+                    "Salted Margarita Bars-8"
+                ],
+                "order_id": 9
+            },
+            {
+                "step_id": "Salted Margarita Bars-10",
+                "name": "Transfer to rack to cool",
+                "description": "Transfer to a rack to cool slightly, then freeze for at least 2 hours.",
+                "time": 7200,
+                "hardware": [
+                    "freezer"
+                ],
+                "ingredients": [],
+                "active": 0,
+                "dependency": [
+                    "Salted Margarita Bars-9"
+                ],
+                "order_id": 10
+            },
+            {
+                "step_id": "Salted Margarita Bars-11",
+                "name": "Cut individual bars",
+                "description": "After freezing, remove the bars from the pan using the parchment paper overhang and transfer to a cutting board. Sprinkle with flaky salt, cut into 16 bars and serve right away. Store leftovers in the freezer. Cheers!",
+                "time": 10,
+                "hardware": [
+                    "knife",
+                    "cutting board"
+                ],
+                "ingredients": [
+                    {
+                        "name": "flaky salt",
+                        "amount": null,
+                        "unit": ""
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    "Salted Margarita Bars-10"
+                ],
+                "order_id": 11
+            }
+        ],
+        "prepTime": 2700,
+        "cookTime": 8100,
+        "servings": 16
+    },
+    {
+        "recipe_id": "2",
+        "name": "Fettucine with Asparagus",
+        "description": "Pasta",
+        "ingredients": [
+            "salt",
+            "asparagus spear",
+            "fettucine",
+            "butter",
+            "salt",
+            "grated nutmeg",
+            "chopped basil",
+            "parmesan cheese"
+        ],
+        "steps": [
+            {
+                "step_id": "Fettucine with Asparagus-1",
+                "name": "Boil a pot of water",
+                "description": "Bring a large pot of salted water to boil.",
+                "time": 600,
+                "hardware": [
+                    "pot"
+                ],
+                "ingredients": [
+                    {
+                        "name": "salt",
+                        "amount": null,
+                        "unit": ""
+                    }
+                ],
+                "active": 0,
+                "dependency": [],
+                "order_id": 1
+            },
+            {
+                "step_id": "Fettucine with Asparagus-2",
+                "name": "Cut asparagus",
+                "description": "Cut off tough ends of asparagus spears. Cut each on the bias into 1-inch lengths. There should be about 1½ cups.",
+                "time": 180,
+                "hardware": [
+                    "knife"
+                ],
+                "ingredients": [
+                    {
+                        "name": "asparagus spear",
+                        "amount": 0.5,
+                        "unit": "pound"
+                    }
+                ],
+                "active": 1,
+                "dependency": [],
+                "order_id": 2
+            },
+            {
+                "step_id": "Fettucine with Asparagus-3",
+                "name": "Rinse asparagus",
+                "description": "Rinse well and drain.",
+                "time": 120,
+                "hardware": [
+                    "colander"
+                ],
+                "ingredients": [],
+                "active": 1,
+                "dependency": [
+                    "Fettucine with Asparagus-2"
+                ],
+                "order_id": 3
+            },
+            {
+                "step_id": "Fettucine with Asparagus-4",
+                "name": "Boil asparagus",
+                "description": "Add the asparagus to the boiling water and cook about 2 minutes. Remove asparagus with a slotted spoon and set aside.",
+                "time": 120,
+                "hardware": [
+                    "pot",
+                    "slotted spoon"
+                ],
+                "ingredients": [],
+                "active": 1,
+                "dependency": [
+                    "Fettucine with Asparagus-1",
+                    "Fettucine with Asparagus-3"
+                ],
+                "order_id": 4
+            },
+            {
+                "step_id": "Fettucine with Asparagus-5",
+                "name": "Cook fettucine",
+                "description": "Drop the fettuccine into salted boiling water. Let cook to desired degree of doneness (cooking time will range from about 2 to 2½ minutes for fresh pasta to 9 minutes or more for dried).",
+                "time": 5400,
+                "hardware": [
+                    "pot"
+                ],
+                "ingredients": [
+                    {
+                        "name": "salt",
+                        "amount": null,
+                        "unit": ""
+                    },
+                    {
+                        "name": "fettucine",
+                        "amount": 10,
+                        "unit": "ounce"
+                    }
+                ],
+                "active": 0,
+                "dependency": [
+                    "Fettucine with Asparagus-4"
+                ],
+                "order_id": 5
+            },
+            {
+                "step_id": "Fettucine with Asparagus-6",
+                "name": "Drain fettucine",
+                "description": "Reserve 2 tablespoons cooking water. Drain the pasta.",
+                "time": 120,
+                "hardware": [
+                    "colander"
+                ],
+                "ingredients": [],
+                "active": 1,
+                "dependency": [
+                    "Fettucine with Asparagus-5"
+                ],
+                "order_id": 6
+            },
+            {
+                "step_id": "Fettucine with Asparagus-7",
+                "name": "Cook everything together",
+                "description": "Heat the butter in the pot in which the pasta was cooked. Add the asparagus pieces and the fettuccine. Add salt, pepper and nutmeg. Add the reserved 2 tablespoons of cooking water and basil. Toss to blend. Serve hot with Parmesan cheese on the side.",
+                "time": 2400,
+                "hardware": [
+                    "pot"
+                ],
+                "ingredients": [
+                    {
+                        "name": "butter",
+                        "amount": 2,
+                        "unit": "tablespoon"
+                    },
+                    {
+                        "name": "salt",
+                        "amount": null,
+                        "unit": ""
+                    },
+                    {
+                        "name": "grated nutmeg",
+                        "amount": 0.125,
+                        "unit": "teaspoon"
+                    },
+                    {
+                        "name": "chopped basil",
+                        "amount": 2,
+                        "unit": "tablespoon"
+                    },
+                    {
+                        "name": "parmesan cheese",
+                        "amount": 0.5,
+                        "unit": "cup"
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    "Fettucine with Asparagus-6"
+                ],
+                "order_id": 7
+            }
+        ],
+        "prepTime": 900,
+        "cookTime": 1020,
+        "servings": 4
+    }
+]

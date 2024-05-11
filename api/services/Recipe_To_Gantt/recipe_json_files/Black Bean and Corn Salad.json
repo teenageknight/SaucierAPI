@@ -1,0 +1,219 @@
+{
+    "name": "Black Bean and Corn Salad",
+    "description": "Black Bean and Corn Salad",
+    "ingredients": [
+        {
+            "name": "olive oil",
+            "main_ingredient": "oil",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "fresh lime juice",
+            "main_ingredient": "lime",
+            "classifier": "fresh",
+            "amount": 0.33,
+            "unit": "cup"
+        },
+        {
+            "name": "garlic",
+            "main_ingredient": "garlic",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "clove"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "salt",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "ground cayenne pepper",
+            "main_ingredient": "pepper",
+            "classifier": "ground",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "black beans",
+            "main_ingredient": "beans",
+            "classifier": "black",
+            "amount": 2.0,
+            "unit": "cans"
+        },
+        {
+            "name": "frozen corn kernels",
+            "main_ingredient": "corn",
+            "classifier": "frozen",
+            "amount": 1.5,
+            "unit": "cups"
+        },
+        {
+            "name": "avocado",
+            "main_ingredient": "avocado",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "whole"
+        },
+        {
+            "name": "red bell pepper",
+            "main_ingredient": "bell pepper",
+            "classifier": "red",
+            "amount": 1.0,
+            "unit": "whole"
+        },
+        {
+            "name": "tomatoes",
+            "main_ingredient": "tomato",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "whole"
+        },
+        {
+            "name": "green onions",
+            "main_ingredient": "onions",
+            "classifier": "green",
+            "amount": 6.0,
+            "unit": "whole"
+        },
+        {
+            "name": "fresh cilantro",
+            "main_ingredient": "cilantro",
+            "classifier": "fresh",
+            "amount": 0.5,
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Prepare dressing",
+            "description": "Place olive oil, lime juice, garlic, salt, and cayenne pepper in a small jar. Close the lid tightly and shake the jar until the dressing is well combined.",
+            "time": 10,
+            "hardware": [
+                "small jar"
+            ],
+            "ingredients": [
+                {
+                    "name": "olive oil",
+                    "main_ingredient": "oil",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "fresh lime juice",
+                    "main_ingredient": "lime",
+                    "classifier": "fresh",
+                    "amount": 0.33,
+                    "unit": "cup"
+                },
+                {
+                    "name": "garlic",
+                    "main_ingredient": "garlic",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "clove"
+                },
+                {
+                    "name": "salt",
+                    "main_ingredient": "salt",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "cayenne pepper",
+                    "main_ingredient": "pepper",
+                    "classifier": "ground",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Prepare salad mixture",
+            "description": "Combine in a salad bowl beans, corn, avocado, bell pepper, tomatoes, green onions, and cilantro.",
+            "time": 5,
+            "hardware": [
+                "salad bowl"
+            ],
+            "ingredients": [
+                {
+                    "name": "black beans",
+                    "main_ingredient": "beans",
+                    "classifier": "black",
+                    "amount": 2.0,
+                    "unit": "cans"
+                },
+                {
+                    "name": "frozen corn kernels",
+                    "main_ingredient": "corn",
+                    "classifier": "frozen",
+                    "amount": 1.5,
+                    "unit": "cups"
+                },
+                {
+                    "name": "avocado",
+                    "main_ingredient": "avocado",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "whole"
+                },
+                {
+                    "name": "red bell pepper",
+                    "main_ingredient": "bell pepper",
+                    "classifier": "red",
+                    "amount": 1.0,
+                    "unit": "whole"
+                },
+                {
+                    "name": "tomatoes",
+                    "main_ingredient": "tomato",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "whole"
+                },
+                {
+                    "name": "green onions",
+                    "main_ingredient": "onions",
+                    "classifier": "green",
+                    "amount": 6.0,
+                    "unit": "whole"
+                },
+                {
+                    "name": "fresh cilantro",
+                    "main_ingredient": "cilantro",
+                    "classifier": "fresh",
+                    "amount": 0.5,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "1"
+            ]
+        },
+        {
+            "step_id": "3",
+            "name": "Finish salad",
+            "description": "Shake dressing again, pour over salad, and toss to coat.",
+            "time": 5,
+            "hardware": [],
+            "ingredients": [],
+            "active": 1,
+            "dependency": [
+                "2"
+            ]
+        }
+    ],
+    "prepTime": 1500,
+    "cookTime": 0,
+    "servings": 6
+}

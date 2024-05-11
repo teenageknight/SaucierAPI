@@ -1,0 +1,378 @@
+{
+    "name": "Indian Fish Curry",
+    "description": "Indian Fish Curry",
+    "nutrients": {
+        "calories": "338 kcal",
+        "carbohydrateContent": "12 g",
+        "cholesterolContent": "56 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "42 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "2715 mg",
+        "sugarContent": "5 g",
+        "fatContent": "14 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "Canola oil",
+            "main_ingredient": "Oil",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "Dijon mustard",
+            "main_ingredient": "Condiment",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "Black pepper",
+            "main_ingredient": "Seasoning",
+            "classifier": "Ground",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Salt",
+            "main_ingredient": "Seasoning",
+            "classifier": "",
+            "amount": 1.5,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "White fish fillets",
+            "main_ingredient": "Fish",
+            "classifier": "",
+            "amount": 4.0,
+            "unit": "fillets"
+        },
+        {
+            "name": "Onion",
+            "main_ingredient": "Vegetable",
+            "classifier": "Medium",
+            "amount": 1.0,
+            "unit": ""
+        },
+        {
+            "name": "Garlic",
+            "main_ingredient": "Vegetable",
+            "classifier": "",
+            "amount": 4.0,
+            "unit": "cloves"
+        },
+        {
+            "name": "Ginger root",
+            "main_ingredient": "Vegetable",
+            "classifier": "Fresh",
+            "amount": 1.0,
+            "unit": "inch piece"
+        },
+        {
+            "name": "Cashew halves",
+            "main_ingredient": "Nut",
+            "classifier": "",
+            "amount": 5.0,
+            "unit": ""
+        },
+        {
+            "name": "Cayenne pepper",
+            "main_ingredient": "Seasoning",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "Ground cumin",
+            "main_ingredient": "Seasoning",
+            "classifier": "Ground",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Ground coriander",
+            "main_ingredient": "Seasoning",
+            "classifier": "Ground",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "White sugar",
+            "main_ingredient": "Sweetener",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Ground turmeric",
+            "main_ingredient": "Seasoning",
+            "classifier": "Ground",
+            "amount": 0.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Tomato",
+            "main_ingredient": "Vegetable",
+            "classifier": "Chopped",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "Vegetable broth",
+            "main_ingredient": "Broth",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "Cilantro",
+            "main_ingredient": "Herb",
+            "classifier": "Chopped Fresh",
+            "amount": 0.25,
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Marinate Fish",
+            "description": "Mix oil, mustard, black pepper, and salt, then marinate fish in the mixture.",
+            "time": 1800,
+            "hardware": [
+                "Shallow glass bowl"
+            ],
+            "ingredients": [
+                {
+                    "name": "Canola oil",
+                    "main_ingredient": "Oil",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "Dijon mustard",
+                    "main_ingredient": "Condiment",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "Black pepper",
+                    "main_ingredient": "Seasoning",
+                    "classifier": "Ground",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Salt",
+                    "main_ingredient": "Seasoning",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "White fish fillets",
+                    "main_ingredient": "Fish",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": "fillets"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Prepare Cashew Paste",
+            "description": "Blend onion, garlic, ginger, and cashews to make a paste.",
+            "time": 0,
+            "hardware": [
+                "Blender"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion",
+                    "main_ingredient": "Vegetable",
+                    "classifier": "Coarsely chopped",
+                    "amount": 1.0,
+                    "unit": "medium"
+                },
+                {
+                    "name": "Garlic",
+                    "main_ingredient": "Vegetable",
+                    "classifier": "Roughly chopped",
+                    "amount": 4.0,
+                    "unit": "cloves"
+                },
+                {
+                    "name": "Ginger root",
+                    "main_ingredient": "Vegetable",
+                    "classifier": "Peeled and chopped",
+                    "amount": 1.0,
+                    "unit": "inch piece"
+                },
+                {
+                    "name": "Cashew halves",
+                    "main_ingredient": "Nut",
+                    "classifier": "",
+                    "amount": 5.0,
+                    "unit": ""
+                }
+            ],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "3",
+            "name": "Preheat Oven",
+            "description": "Preheat the oven to 350\u00b0F (175\u00b0C).",
+            "time": 0,
+            "hardware": [
+                "Oven"
+            ],
+            "ingredients": [],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "4",
+            "name": "Cook Cashew Paste",
+            "description": "Cook cashew paste with spices and tomato.",
+            "time": 300,
+            "hardware": [
+                "Skillet"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cashew paste",
+                    "main_ingredient": "Nut",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": ""
+                },
+                {
+                    "name": "Cayenne pepper",
+                    "main_ingredient": "Seasoning",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "Salt",
+                    "main_ingredient": "Seasoning",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Ground cumin",
+                    "main_ingredient": "Seasoning",
+                    "classifier": "Ground",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Ground coriander",
+                    "main_ingredient": "Seasoning",
+                    "classifier": "Ground",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "White sugar",
+                    "main_ingredient": "Sweetener",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Ground turmeric",
+                    "main_ingredient": "Seasoning",
+                    "classifier": "Ground",
+                    "amount": 0.5,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Tomato",
+                    "main_ingredient": "Vegetable",
+                    "classifier": "Chopped",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Vegetable broth",
+                    "main_ingredient": "Broth",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "2"
+            ]
+        },
+        {
+            "step_id": "5",
+            "name": "Bake Fish",
+            "description": "Arrange marinated fish in a baking dish with sauce and bake until done.",
+            "time": 1800,
+            "hardware": [
+                "Baking dish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Canola oil",
+                    "main_ingredient": "Oil",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "White fish fillets",
+                    "main_ingredient": "Fish",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": "fillets"
+                },
+                {
+                    "name": "Sauce",
+                    "main_ingredient": "Misc",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": ""
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "step_id": "6",
+            "name": "Garnish",
+            "description": "Garnish baked fish with cilantro before serving.",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "Cilantro",
+                    "main_ingredient": "Herb",
+                    "classifier": "Chopped Fresh",
+                    "amount": 0.25,
+                    "unit": "cup"
+                }
+            ],
+            "active": 0,
+            "dependency": [
+                "5"
+            ]
+        }
+    ],
+    "prepTime": 900,
+    "cookTime": 1800,
+    "servings": 4
+}

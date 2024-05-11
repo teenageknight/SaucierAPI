@@ -1,0 +1,14 @@
+{
+    "name": "saucier",
+    "version": "1.0.0",
+    "description": "Tech stack for Saucier, the recipe AI api. Also contains a Demo app with a react front end for testing purposes",
+    "scripts": {
+        "start": "concurrently 'npm run start:app' 'npm run start:api'",
+        "start:app": "cd app && npm start",
+        "start:api": "cd api && uvicorn main:app --reload",
+        "scripts:cp-recipes": "cd scripts && ./copy-recipes-to-app.sh"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

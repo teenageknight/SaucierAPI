@@ -1,0 +1,276 @@
+{
+    "name": "Chocolate Cereal Breakfast Bars",
+    "description": "Chocolate Cereal Breakfast Bars",
+    "nutrients": {
+        "calories": "264 kcal",
+        "carbohydrateContent": "38 g",
+        "fiberContent": "4 g",
+        "proteinContent": "5 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "247 mg",
+        "fatContent": "12 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "rolled oats",
+            "main_ingredient": "rolled oats",
+            "classifier": "",
+            "amount": 1.5,
+            "unit": "cups"
+        },
+        {
+            "name": "puffed brown rice cereal",
+            "main_ingredient": "brown rice",
+            "classifier": "puffed",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "raw almonds",
+            "main_ingredient": "almonds",
+            "classifier": "raw",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "shredded coconut",
+            "main_ingredient": "coconut",
+            "classifier": "shredded",
+            "amount": 0.33,
+            "unit": "cup"
+        },
+        {
+            "name": "unsweetened cocoa powder",
+            "main_ingredient": "cocoa",
+            "classifier": "unsweetened",
+            "amount": 3.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "kosher salt",
+            "main_ingredient": "salt",
+            "classifier": "kosher",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "cayenne pepper",
+            "main_ingredient": "pepper",
+            "classifier": "cayenne",
+            "amount": "tiny pinch",
+            "unit": ""
+        },
+        {
+            "name": "brown sugar",
+            "main_ingredient": "sugar",
+            "classifier": "brown",
+            "amount": 0.33,
+            "unit": "cup"
+        },
+        {
+            "name": "maple syrup",
+            "main_ingredient": "syrup",
+            "classifier": "maple",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "vegetable oil",
+            "main_ingredient": "oil",
+            "classifier": "vegetable",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "water",
+            "main_ingredient": "water",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Gather Ingredients and Preheat Oven",
+            "description": "Gather all your ingredients. Preheat the oven to 350 degrees F (175 degrees C). Grease an 8x8 pan with butter and line with parchment paper.",
+            "time": 1200,
+            "hardware": [
+                "oven",
+                "pan"
+            ],
+            "ingredients": [],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Combine Dry Ingredients",
+            "description": "Combine rolled oats, puffed brown rice cereal, almonds, coconut, cocoa powder, salt, and cayenne in a bowl.",
+            "time": 0,
+            "hardware": [
+                "bowl"
+            ],
+            "ingredients": [
+                {
+                    "name": "rolled oats",
+                    "main_ingredient": "rolled oats",
+                    "classifier": "",
+                    "amount": 1.5,
+                    "unit": "cups"
+                },
+                {
+                    "name": "puffed brown rice cereal",
+                    "main_ingredient": "brown rice",
+                    "classifier": "puffed",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "raw almonds",
+                    "main_ingredient": "almonds",
+                    "classifier": "raw",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "shredded coconut",
+                    "main_ingredient": "coconut",
+                    "classifier": "shredded",
+                    "amount": 0.33,
+                    "unit": "cup"
+                },
+                {
+                    "name": "unsweetened cocoa powder",
+                    "main_ingredient": "cocoa",
+                    "classifier": "unsweetened",
+                    "amount": 3.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "kosher salt",
+                    "main_ingredient": "salt",
+                    "classifier": "kosher",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "cayenne pepper",
+                    "main_ingredient": "pepper",
+                    "classifier": "cayenne",
+                    "amount": "tiny pinch",
+                    "unit": ""
+                }
+            ],
+            "active": 0,
+            "dependency": [
+                "1"
+            ]
+        },
+        {
+            "step_id": "3",
+            "name": "Make Sugar Mixture",
+            "description": "Combine brown sugar, maple syrup, vegetable oil, and water in a small saucepan and bring to a simmer over medium-high heat. Stir, and let the mixture boil for 1 minute.",
+            "time": 60,
+            "hardware": [
+                "saucepan"
+            ],
+            "ingredients": [
+                {
+                    "name": "brown sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "brown",
+                    "amount": 0.33,
+                    "unit": "cup"
+                },
+                {
+                    "name": "maple syrup",
+                    "main_ingredient": "syrup",
+                    "classifier": "maple",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "vegetable oil",
+                    "main_ingredient": "oil",
+                    "classifier": "vegetable",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "water",
+                    "main_ingredient": "water",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "2"
+            ]
+        },
+        {
+            "step_id": "4",
+            "name": "Mix Wet and Dry Ingredients",
+            "description": "Pour sugar mixture over the dry ingredients in the bowl and mix thoroughly.",
+            "time": 0,
+            "hardware": [
+                "bowl"
+            ],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [
+                "3"
+            ]
+        },
+        {
+            "step_id": "5",
+            "name": "Bake Mixture",
+            "description": "Transfer to the prepared pan, and smooth out the top, pressing lightly with a spatula. Bake in the preheated oven for 25 minutes.",
+            "time": 1500,
+            "hardware": [
+                "spatula",
+                "oven",
+                "pan"
+            ],
+            "ingredients": [],
+            "active": 1,
+            "dependency": [
+                "4"
+            ]
+        },
+        {
+            "step_id": "6",
+            "name": "Cut into Portions",
+            "description": "While still hot, use a spatula to score the pan into 8 portions.",
+            "time": 0,
+            "hardware": [
+                "spatula"
+            ],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [
+                "5"
+            ]
+        },
+        {
+            "step_id": "7",
+            "name": "Cool and Serve",
+            "description": "Let cool to room temperature before breaking into bars. You can also not score, and simply let cool, then cut with a knife. Serve and enjoy!",
+            "time": 900,
+            "hardware": [
+                "knife"
+            ],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [
+                "6"
+            ]
+        }
+    ],
+    "prepTime": 60,
+    "cookTime": 1620,
+    "servings": 8
+}

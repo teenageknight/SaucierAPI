@@ -1,0 +1,352 @@
+{
+    "name": "Pork Chops Al Pastor",
+    "description": "Pork Chops Al Pastor",
+    "img": "https://www.allrecipes.com/thmb/qBH46219JPy2diM-mbueQ4eCvfs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8623640_Pork-Chops-al-Pastor_John-Mitzewich_4x3-b7fa575e1be74bb693e7aef7765609a1.jpg",
+    "nutrients": {
+        "calories": "434 kcal",
+        "carbohydrateContent": "15 g",
+        "cholesterolContent": "143 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "45 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "782 mg",
+        "sugarContent": "10 g",
+        "fatContent": "21 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "Pork Chops",
+            "main_ingredient": "Pork",
+            "classifier": "bone-in double-cut",
+            "amount": "4",
+            "unit": "pieces"
+        },
+        {
+            "name": "Pineapple Chunks with Juice",
+            "main_ingredient": "Pineapple",
+            "amount": "14",
+            "unit": "ounce"
+        },
+        {
+            "name": "Chili Pepper",
+            "main_ingredient": "Chili Pepper",
+            "amount": "2",
+            "unit": "tablespoons"
+        },
+        {
+            "name": "Chili Powder",
+            "main_ingredient": "Chili Powder",
+            "amount": "1",
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Chipotle",
+            "main_ingredient": "Chipotle",
+            "amount": "1",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Cinnamon",
+            "main_ingredient": "Cinnamon",
+            "amount": "1",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Kosher Salt",
+            "main_ingredient": "Salt",
+            "amount": "3 1/2",
+            "unit": "teaspoons"
+        },
+        {
+            "name": "White Vinegar",
+            "main_ingredient": "Vinegar",
+            "amount": "1",
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Garlic",
+            "main_ingredient": "Garlic",
+            "amount": "4",
+            "unit": "cloves"
+        },
+        {
+            "name": "Green Onions",
+            "main_ingredient": "Onions",
+            "amount": "2",
+            "unit": "pieces"
+        },
+        {
+            "name": "Olive Oil",
+            "main_ingredient": "Olive Oil",
+            "amount": "1",
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Yellow Onion",
+            "main_ingredient": "Onion",
+            "amount": "1",
+            "unit": "piece"
+        },
+        {
+            "name": "Ground Cumin",
+            "main_ingredient": "Cumin",
+            "amount": "1",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Oregano",
+            "main_ingredient": "Oregano",
+            "amount": "1",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Water or Chicken Broth",
+            "main_ingredient": "Water or Chicken",
+            "amount": "1/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Yellow Onion",
+            "main_ingredient": "Onion",
+            "amount": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Fresh or Canned Pineapple",
+            "main_ingredient": "Pineapple",
+            "amount": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Fresh Oregano Leaves",
+            "main_ingredient": "Oregano",
+            "amount": "1",
+            "unit": "tablespoon"
+        },
+        {
+            "name": "Kosher Salt",
+            "main_ingredient": "Salt",
+            "amount": "1/4",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "Lime",
+            "main_ingredient": "Lime",
+            "amount": "1/2",
+            "unit": "piece"
+        },
+        {
+            "name": "Cayenne",
+            "main_ingredient": "Cayenne",
+            "amount": "",
+            "unit": "for garnish"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Marinade the Chops",
+            "description": "Place chops in a resealable plastic bag set in a bowl. Add pineapple, guajillo, New Mexico chili powder, chipotle, cinnamon, salt, white vinegar, garlic, and onions to the jar of a blender, and blend until marinade is smooth; pour marinade into bag. Massage pork to coat evenly. Press out air, seal the bag, and refrigerate overnight, or up to 48 hours.",
+            "time": "8 hours",
+            "hardware": ["Blender"],
+            "ingredients": [
+                {
+                    "name": "Pork Chops",
+                    "amount": "4",
+                    "unit": "pieces"
+                },
+                {
+                    "name": "Pineapple Chunks with Juice",
+                    "amount": "14",
+                    "unit": "ounce"
+                },
+                {
+                    "name": "Chili Pepper",
+                    "amount": "2",
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "Chili Powder",
+                    "amount": "1",
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "Chipotle",
+                    "amount": "1",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Cinnamon",
+                    "amount": "1",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Kosher Salt",
+                    "amount": "3 1/2",
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "White Vinegar",
+                    "amount": "1",
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "Garlic",
+                    "amount": "4",
+                    "unit": "cloves"
+                },
+                {
+                    "name": "Green Onions",
+                    "amount": "2",
+                    "unit": "pieces"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Preheat Oven",
+            "description": "Preheat the oven to 325 degrees F (165 degrees C).",
+            "time": "5 minutes",
+            "hardware": ["Oven"],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["1"]
+        },
+        {
+            "step_id": "3",
+            "name": "Sear Chops",
+            "description": "Heat olive oil in an oven-safe pan over medium-high heat. Remove chops from marinade, scraping off as much excess as possible; reserve all marinade for the sauce. Sear chops in the hot pan on both sides until lightly browned, about 3 minutes per side. Remove to a plate; set aside.",
+            "time": "10 minutes",
+            "hardware": ["Pan"],
+            "ingredients": [
+                {
+                    "name": "Olive Oil",
+                    "amount": "1",
+                    "unit": "tablespoon"
+                }
+            ],
+            "active": 1,
+            "dependency": ["2"]
+        },
+        {
+            "step_id": "4",
+            "name": "Saute Onion Mixture",
+            "description": "Add yellow onion, cumin, and dried oregano to the pan, and cook, stirring, for 1 minute. If pan seems dry, add another drizzle of oil.",
+            "time": "5 minutes",
+            "hardware": ["Pan"],
+            "ingredients": [
+                {
+                    "name": "Yellow Onion",
+                    "amount": "1",
+                    "unit": "piece"
+                },
+                {
+                    "name": "Ground Cumin",
+                    "amount": "1",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Oregano",
+                    "amount": "1",
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": ["3"]
+        },
+        {
+            "step_id": "5",
+            "name": "Deglaze Pan",
+            "description": "Turn off heat, and pour in water. Stir, scraping any brown bits off the bottom of the pan. Place chops on top of onion mixture.",
+            "time": "2 minutes",
+            "hardware": ["Pan"],
+            "ingredients": [
+                {
+                    "name": "Water or Chicken Broth",
+                    "amount": "1/3",
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": ["4"]
+        },
+        {
+            "step_id": "6",
+            "name": "Roast Chops",
+            "description": "Roast in the preheated oven until pork is cooked to taste, 20 to 30 minutes, basting or brushing chops with pan juices occasionally. An internal temperature of 140 to 145 degrees F (60 to 63 degrees C) will ensure juicy, tender meat. Roasting time will vary greatly depending on size of chops, so check temperature with an instant-read thermometer early and often.",
+            "time": "30 minutes",
+            "hardware": ["Oven"],
+            "ingredients": [],
+            "active": 1,
+            "dependency": ["5"]
+        },
+        {
+            "step_id": "7",
+            "name": "Make Sauce",
+            "description": "Meanwhile, pour marinade into a saucepan, and add about 1/2 cup of water, or as needed to achieve desired thickness. Bring to a simmer on medium-high heat, whisking occasionally. Taste sauce for seasoning; keep warm until needed.",
+            "time": "10 minutes",
+            "hardware": ["Saucepan"],
+            "ingredients": [
+                {
+                    "name": "Pork Marinade",
+                    "amount": "1/2",
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": ["6"]
+        },
+        {
+            "step_id": "8",
+            "name": "Prepare Salsa",
+            "description": "To make salsa, combine white onion, diced pineapple, fresh oregano, \u00bc teaspoon salt, and lime juice in a bowl and mix thoroughly.",
+            "time": "5 minutes",
+            "hardware": ["Bowl"],
+            "ingredients": [
+                {
+                    "name": "White Onion",
+                    "amount": "1",
+                    "unit": "piece"
+                },
+                {
+                    "name": "Fresh or Canned Pineapple",
+                    "amount": "1/2",
+                    "unit": "cup"
+                },
+                {
+                    "name": "Fresh Oregano Leaves",
+                    "amount": "1",
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "Kosher Salt",
+                    "amount": "1/4",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "Lime",
+                    "amount": "1/2",
+                    "unit": "piece"
+                }
+            ],
+            "active": 1,
+            "dependency": ["6"]
+        },
+        {
+            "step_id": "9",
+            "name": "Rest and Serve",
+            "description": "Remove pork from the oven; tent with foil and let rest for 5 to 10 minutes before serving. While resting, tops of chops can be garnished with sauce and a spoon of salsa.",
+            "time": "10 minutes",
+            "hardware": ["Foil"],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["6", "8"]
+        }
+    ],
+    "prepTime": "8 hours",
+    "cookTime": "52 min",
+    "servings": "8 servings"
+}

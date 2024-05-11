@@ -1,0 +1,257 @@
+{
+    "name": "Classic Macaroni Salad",
+    "description": "Classic Macaroni Salad",
+    "img": "https://www.allrecipes.com/thmb/Q1S1RuecivLTppaVGdIiRIwguaE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/81108-classic-macaroni-salad-mfs-033-23e4b38a9ff046ccb39cc7fc5bbfc7d3.jpg",
+    "nutrients": {
+        "calories": "390 kcal",
+        "carbohydrateContent": "49 g",
+        "cholesterolContent": "8 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "529 mg",
+        "sugarContent": "16 g",
+        "fatContent": "19 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "uncooked elbow macaroni",
+            "main_ingredient": "elbow macaroni",
+            "classifier": "",
+            "amount": 4,
+            "unit": "cups"
+        },
+        {
+            "name": "mayonnaise",
+            "main_ingredient": "mayonnaise",
+            "classifier": "",
+            "amount": 1,
+            "unit": "cup"
+        },
+        {
+            "name": "white sugar",
+            "main_ingredient": "sugar",
+            "classifier": "white",
+            "amount": "⅔",
+            "unit": "cup"
+        },
+        {
+            "name": "distilled white vinegar",
+            "main_ingredient": "vinegar",
+            "classifier": "white",
+            "amount": "¼",
+            "unit": "cup"
+        },
+        {
+            "name": "prepared yellow mustard",
+            "main_ingredient": "mustard",
+            "classifier": "yellow",
+            "amount": "2 ½",
+            "unit": "tablespoons"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "salt",
+            "classifier": "",
+            "amount": "1 ½",
+            "unit": "teaspoons"
+        },
+        {
+            "name": "ground black pepper",
+            "main_ingredient": "black pepper",
+            "classifier": "ground",
+            "amount": "½",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "celery",
+            "main_ingredient": "celery",
+            "classifier": "",
+            "amount": 2,
+            "unit": "stalks"
+        },
+        {
+            "name": "onion",
+            "main_ingredient": "onion",
+            "classifier": "",
+            "amount": 1,
+            "unit": "large"
+        },
+        {
+            "name": "green bell pepper",
+            "main_ingredient": "bell pepper",
+            "classifier": "green",
+            "amount": 1,
+            "unit": ""
+        },
+        {
+            "name": "grated carrot",
+            "main_ingredient": "carrot",
+            "classifier": "grated",
+            "amount": "¼",
+            "unit": "cup"
+        },
+        {
+            "name": "chopped pimento peppers",
+            "main_ingredient": "pimento peppers",
+            "classifier": "chopped",
+            "amount": 2,
+            "unit": "tablespoons"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Classic Macaroni Salad-1",
+            "name": "Gather all ingredients.",
+            "description": "Gather all ingredients.",
+            "time": "0",
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Classic Macaroni Salad-2",
+            "name": "Boil macaroni",
+            "description": "Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally, until tender yet firm to the bite, about 8 minutes. Rinse under cold water and drain.",
+            "time": "8",
+            "hardware": ["pot"],
+            "ingredients": [
+                {
+                    "name": "uncooked elbow macaroni",
+                    "main_ingredient": "elbow macaroni",
+                    "classifier": "",
+                    "amount": 4,
+                    "unit": "cups"
+                }
+            ],
+            "active": 1,
+            "dependency": [],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Classic Macaroni Salad-3",
+            "name": "Mix ingredients",
+            "description": "Mix mayonnaise, sugar, vinegar, mustard, salt, pepper, and macaroni together in a large bowl.",
+            "time": "2",
+            "hardware": ["bowl"],
+            "ingredients": [
+                {
+                    "name": "mayonnaise",
+                    "main_ingredient": "mayonnaise",
+                    "classifier": "",
+                    "amount": 1,
+                    "unit": "cup"
+                },
+                {
+                    "name": "white sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "white",
+                    "amount": "⅔",
+                    "unit": "cup"
+                },
+                {
+                    "name": "distilled white vinegar",
+                    "main_ingredient": "vinegar",
+                    "classifier": "white",
+                    "amount": "¼",
+                    "unit": "cup"
+                },
+                {
+                    "name": "prepared yellow mustard",
+                    "main_ingredient": "mustard",
+                    "classifier": "yellow",
+                    "amount": "2 ½",
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "salt",
+                    "main_ingredient": "salt",
+                    "classifier": "",
+                    "amount": "1 ½",
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "ground black pepper",
+                    "main_ingredient": "black pepper",
+                    "classifier": "ground",
+                    "amount": "½",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "uncooked elbow macaroni",
+                    "main_ingredient": "elbow macaroni",
+                    "classifier": "",
+                    "amount": 4,
+                    "unit": "cups"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Classic Macaroni Salad-2"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Classic Macaroni Salad-4",
+            "name": "Add vegetables",
+            "description": "Stir in celery, onion, green pepper, carrot, and pimentos.",
+            "time": "2",
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "celery",
+                    "main_ingredient": "celery",
+                    "classifier": "",
+                    "amount": 2,
+                    "unit": "stalks"
+                },
+                {
+                    "name": "onion",
+                    "main_ingredient": "onion",
+                    "classifier": "",
+                    "amount": 1,
+                    "unit": "large"
+                },
+                {
+                    "name": "green bell pepper",
+                    "main_ingredient": "bell pepper",
+                    "classifier": "green",
+                    "amount": 1,
+                    "unit": ""
+                },
+                {
+                    "name": "grated carrot",
+                    "main_ingredient": "carrot",
+                    "classifier": "grated",
+                    "amount": "¼",
+                    "unit": "cup"
+                },
+                {
+                    "name": "chopped pimento peppers",
+                    "main_ingredient": "pimento peppers",
+                    "classifier": "chopped",
+                    "amount": 2,
+                    "unit": "tablespoons"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Classic Macaroni Salad-3"],
+            "order_id": "4"
+        },
+        {
+            "step_id": "Classic Macaroni Salad-5",
+            "name": "Refrigerate salad",
+            "description": "Refrigerate salad for at least 4 hours before serving, but preferably overnight.",
+            "time": "240",
+            "hardware": ["refrigerator"],
+            "ingredients": [],
+            "active": 1,
+            "dependency": ["Classic Macaroni Salad-4"],
+            "order_id": "5"
+        }
+    ],
+    "prepTime": "0",
+    "cookTime": "252",
+    "servings": "10"
+}

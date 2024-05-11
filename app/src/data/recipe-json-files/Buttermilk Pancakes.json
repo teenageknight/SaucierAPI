@@ -1,0 +1,274 @@
+{
+    "name": "Buttermilk Pancakes",
+    "description": "Buttermilk Pancakes",
+    "img": "https://www.allrecipes.com/thmb/cjMef74-adqdYWcqUcg_NVRxbgE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/24530-ButtermilkPancakes-II-mfs-4X3-3385-b9e08648074145d18c538731c2be4215.jpg",
+    "nutrients": {
+        "calories": "219 kcal",
+        "carbohydrateContent": "31 g",
+        "cholesterolContent": "63 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "516 mg",
+        "sugarContent": "7 g",
+        "fatContent": "7 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "all-purpose flour",
+            "main_ingredient": "flour",
+            "classifier": "",
+            "amount": 3,
+            "unit": "cups"
+        },
+        {
+            "name": "white sugar",
+            "main_ingredient": "sugar",
+            "classifier": "",
+            "amount": 3,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "baking powder",
+            "main_ingredient": "powder",
+            "classifier": "",
+            "amount": 3,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "baking soda",
+            "main_ingredient": "soda",
+            "classifier": "",
+            "amount": 1.5,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "salt",
+            "classifier": "",
+            "amount": 0.75,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "buttermilk",
+            "main_ingredient": "buttermilk",
+            "classifier": "",
+            "amount": 3,
+            "unit": "cups"
+        },
+        {
+            "name": "milk",
+            "main_ingredient": "milk",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "eggs",
+            "main_ingredient": "eggs",
+            "classifier": "",
+            "amount": 3,
+            "unit": ""
+        },
+        {
+            "name": "butter, melted",
+            "main_ingredient": "butter",
+            "classifier": "melted",
+            "amount": 0.33,
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Buttermilk Pancakes-1",
+            "name": "Mix dry ingredients",
+            "description": "Combine flour, sugar, baking powder, baking soda, and salt in a large bowl. Beat together buttermilk, milk, eggs, and melted butter in a separate bowl. Keep the two mixtures separate until you are ready to cook.",
+            "time": "10",
+            "hardware": ["bowl"],
+            "ingredients": [
+                {
+                    "name": "all-purpose flour",
+                    "main_ingredient": "flour",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "cups"
+                },
+                {
+                    "name": "white sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "baking powder",
+                    "main_ingredient": "powder",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "baking soda",
+                    "main_ingredient": "soda",
+                    "classifier": "",
+                    "amount": 1.5,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "salt",
+                    "main_ingredient": "salt",
+                    "classifier": "",
+                    "amount": 0.75,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "buttermilk",
+                    "main_ingredient": "buttermilk",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "cups"
+                },
+                {
+                    "name": "milk",
+                    "main_ingredient": "milk",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "eggs",
+                    "main_ingredient": "eggs",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": ""
+                },
+                {
+                    "name": "butter, melted",
+                    "main_ingredient": "butter",
+                    "classifier": "melted",
+                    "amount": 0.33,
+                    "unit": "cup"
+                }
+            ],
+            "active": 0,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Buttermilk Pancakes-2",
+            "name": "Heat Griddle",
+            "description": "Heat a lightly oiled griddle or frying pan over medium-high heat. You can flick water across the surface and if it beads up and sizzles, it's ready.",
+            "time": "3",
+            "hardware": ["griddle", "frying pan"],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["Buttermilk Pancakes-1"],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Buttermilk Pancakes-3",
+            "name": "Combine batter",
+            "description": "Pour the wet mixture into the dry mixture; use a wooden spoon or fork to mix until it's just blended together. The batter will be a little lumpy which is what you want.",
+            "time": "5",
+            "hardware": ["spoon", "fork"],
+            "ingredients": [],
+            "active": 1,
+            "dependency": ["Buttermilk Pancakes-1", "Buttermilk Pancakes-2"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Buttermilk Pancakes-4",
+            "name": "Cook pancakes",
+            "description": "Pour or scoop the batter onto the preheated griddle, using approximately 1/2 cup for each pancake. Cook until bubbles appear on the surface, 1 to 2 minutes; flip with a spatula and cook until browned on the other side. Repeat with remaining batter.",
+            "time": "10",
+            "hardware": ["griddle", "spatula"],
+            "ingredients": [
+                {
+                    "name": "all-purpose flour",
+                    "main_ingredient": "flour",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "cups"
+                },
+                {
+                    "name": "white sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "baking powder",
+                    "main_ingredient": "powder",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "baking soda",
+                    "main_ingredient": "soda",
+                    "classifier": "",
+                    "amount": 1.5,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "salt",
+                    "main_ingredient": "salt",
+                    "classifier": "",
+                    "amount": 0.75,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "buttermilk",
+                    "main_ingredient": "buttermilk",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": "cups"
+                },
+                {
+                    "name": "milk",
+                    "main_ingredient": "milk",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "eggs",
+                    "main_ingredient": "eggs",
+                    "classifier": "",
+                    "amount": 3,
+                    "unit": ""
+                },
+                {
+                    "name": "butter, melted",
+                    "main_ingredient": "butter",
+                    "classifier": "melted",
+                    "amount": 0.33,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "Buttermilk Pancakes-1",
+                "Buttermilk Pancakes-2",
+                "Buttermilk Pancakes-3"
+            ],
+            "order_id": "4"
+        },
+        {
+            "step_id": "Buttermilk Pancakes-5",
+            "name": "Serve",
+            "description": "Serve hot and enjoy!",
+            "time": "0",
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["Buttermilk Pancakes-4"],
+            "order_id": "5"
+        }
+    ],
+    "prepTime": "10",
+    "cookTime": "18",
+    "servings": "12"
+}

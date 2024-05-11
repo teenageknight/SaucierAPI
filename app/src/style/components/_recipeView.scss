@@ -1,0 +1,32 @@
+@use '../abstract/index' as *;
+
+.recipe-view {
+    overflow-y: auto;
+    height: 72%;
+    .description {
+        // @include secondary-font-size;
+        font-family: $secondary-font-family;
+        color: gray;
+    }
+    .time {
+        @include secondary-font-size;
+        font-family: $secondary-font-family;
+        display: flex;
+        flex-direction: row;
+        color: gray;
+        gap: 0.15rem;
+        align-items: center;
+        margin-right: 10px;
+        .icon-wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .button {
+        margin-bottom: 10px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,282 @@
+{
+    "name": "Chicken Teriyaki Chow Mein Recipe by Tasty",
+    "description": "Chicken Teriyaki Chow Mein Recipe by Tasty",
+    "ingredients": [
+        {
+            "name": "Chicken Breast",
+            "main_ingredient": "Chicken",
+            "classifier": "Cubed",
+            "amount": 1,
+            "unit": "lb"
+        },
+        {
+            "name": "Salt",
+            "main_ingredient": "",
+            "classifier": "To Taste",
+            "amount": "",
+            "unit": ""
+        },
+        {
+            "name": "Pepper",
+            "main_ingredient": "",
+            "classifier": "To Taste",
+            "amount": "",
+            "unit": ""
+        },
+        {
+            "name": "Teriyaki Sauce",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "Cooking Oil",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": 4,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "Chow Mein Noodle",
+            "main_ingredient": "",
+            "classifier": "Hong Kong Style Pan Fried Noodles, Par Cooked",
+            "amount": 6,
+            "unit": "oz"
+        },
+        {
+            "name": "Onion",
+            "main_ingredient": "",
+            "classifier": "Sliced",
+            "amount": 0.75,
+            "unit": "cup"
+        },
+        {
+            "name": "Carrot",
+            "main_ingredient": "",
+            "classifier": "Julienned",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "Broccoli",
+            "main_ingredient": "",
+            "classifier": "Floret",
+            "amount": 1,
+            "unit": "cup"
+        },
+        {
+            "name": "Cabbage",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": 1,
+            "unit": "cup"
+        },
+        {
+            "name": "Sesame Seed",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": "",
+            "unit": "for garnish"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Marinate Chicken",
+            "description": "Season chicken with salt, pepper, and 1/4 cup teriyaki sauce. Marinate for 30 minutes to 1 hour.",
+            "time": "",
+            "hardware": [
+                "Medium Bowl"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken Breast",
+                    "main_ingredient": "Chicken",
+                    "classifier": "Cubed",
+                    "amount": 1,
+                    "unit": "lb"
+                },
+                {
+                    "name": "Salt",
+                    "main_ingredient": "",
+                    "classifier": "To Taste",
+                    "amount": "",
+                    "unit": ""
+                },
+                {
+                    "name": "Pepper",
+                    "main_ingredient": "",
+                    "classifier": "To Taste",
+                    "amount": "",
+                    "unit": ""
+                },
+                {
+                    "name": "Teriyaki Sauce",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                }
+            ],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Cook Noodles",
+            "description": "Heat oil in wok, add noodles and crisp. Set aside.",
+            "time": "",
+            "hardware": [
+                "Wok or Deep Skillet"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cooking Oil",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 2,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "Chow Mein Noodle",
+                    "main_ingredient": "",
+                    "classifier": "Hong Kong Style Pan Fried Noodles, Par Cooked",
+                    "amount": 6,
+                    "unit": "oz"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "3",
+            "name": "Cook Chicken",
+            "description": "Brown chicken on one side, then fully cook.",
+            "time": "",
+            "hardware": [
+                "Wok or Deep Skillet"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cooking Oil",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 1,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "Chicken Breast",
+                    "main_ingredient": "Chicken",
+                    "classifier": "Cubed",
+                    "amount": 1,
+                    "unit": "lb"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "4",
+            "name": "Cook Vegetables",
+            "description": "Cook onion, carrot, broccoli, and cabbage until soft.",
+            "time": "",
+            "hardware": [
+                "Wok or Deep Skillet"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cooking Oil",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 1,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "Onion",
+                    "main_ingredient": "",
+                    "classifier": "Sliced",
+                    "amount": 0.75,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Carrot",
+                    "main_ingredient": "",
+                    "classifier": "Julienned",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Broccoli",
+                    "main_ingredient": "",
+                    "classifier": "Floret",
+                    "amount": 1,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Cabbage",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 1,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "5",
+            "name": "Combine Ingredients",
+            "description": "Mix chicken, noodles, vegetables, and teriyaki sauce. Garnish with sesame seeds.",
+            "time": "",
+            "hardware": [
+                "Wok or Deep Skillet"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken Breast",
+                    "main_ingredient": "Chicken",
+                    "classifier": "Cubed",
+                    "amount": 1,
+                    "unit": "lb"
+                },
+                {
+                    "name": "Chow Mein Noodle",
+                    "main_ingredient": "",
+                    "classifier": "Hong Kong Style Pan Fried Noodles, Par Cooked",
+                    "amount": 6,
+                    "unit": "oz"
+                },
+                {
+                    "name": "Teriyaki Sauce",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "Sesame Seed",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": "",
+                    "unit": "for garnish"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "6",
+            "name": "Enjoy!",
+            "description": "Enjoy the delicious dish!",
+            "time": "",
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": []
+        }
+    ],
+    "prepTime": "30 minutes",
+    "cookTime": "30 minutes",
+    "servings": "6 servings"
+}

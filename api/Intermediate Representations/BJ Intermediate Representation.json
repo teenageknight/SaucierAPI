@@ -1,0 +1,141 @@
+[
+    {
+        "recipe_id": "1",
+        "name": "Shortcake",
+        "description": "A simple recipe for for a basic shortcake (basically a buiscut). This is a great recipe for a quick and easy dessert. Serve with strawberries and whipped cream.",
+        "ingredients": [
+            "flour",
+            "sugar",
+            "baking powder",
+            "shortening",
+            "milk",
+            "butter"
+        ],
+        "steps": [
+            {
+                "step_id": 1,
+                "name": "Mix dry ingredients.",
+                "description": "Blend together the dry ingredients.",
+                "time": 180,
+                "hardware": [
+                    "Large mixing bowl."
+                ],
+                "ingredients": [
+                    {
+                        "name": "all-purpose flour",
+                        "amount": 2,
+                        "unit": "cup"
+                    },
+                    {
+                        "name": "sugar",
+                        "amount": 2,
+                        "unit": "tablespoon"
+                    },
+                    {
+                        "name": "baking powder",
+                        "amount": 3,
+                        "unit": "teaspoon"
+                    }
+                ],
+                "active": 1,
+                "dependency": []
+            },
+            {
+                "step_id": 2,
+                "name": "Preheat Oven",
+                "description": "Preheat the oven to 450 degrees F",
+                "time": 1,
+                "hardware": [
+                    "oven"
+                ],
+                "ingredients": [],
+                "active": 0,
+                "dependency": []
+            },
+            {
+                "step_id": 3,
+                "name": "Cut in shortening",
+                "description": "Use a pastry cutter to cut in the shortening until the mixture resembles coarse crumbs.",
+                "time": 300,
+                "hardware": [
+                    "Large mixing bowl."
+                ],
+                "ingredients": [
+                    {
+                        "name": "shortening",
+                        "amount": 0.333333333,
+                        "unit": "cup"
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    1
+                ]
+            },
+            {
+                "step_id": 4,
+                "name": "Stir in milk",
+                "description": "Stir the milk into your mixture.",
+                "time": 300,
+                "hardware": [
+                    "Large mixing bowl."
+                ],
+                "ingredients": [
+                    {
+                        "name": "milk",
+                        "amount": 1,
+                        "unit": "cup"
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    1, 3
+                ]
+            },
+            {
+                "step_id": 5,
+                "name": "Put dough in Pan",
+                "description": "Spread the dough into greased 9 inch pan. Dot the top with extra butter and sugar.",
+                "time": 300,
+                "hardware": [
+                    "Large mixing bowl.",
+                    "9 inch pan"
+                ],
+                "ingredients": [
+                    {
+                        "name": "butter",
+                        "amount": 1,
+                        "unit": "tablespoon"
+                    },
+                    {
+                        "name": "sugar",
+                        "amount": 1,
+                        "unit": "tablespoon"
+                    }
+                ],
+                "active": 1,
+                "dependency": [
+                    1,2,3,4
+                ]
+            },
+            {
+                "step_id": 6,
+                "name": "Bake",
+                "description": "Bake the shortcake for 15 minutes or until golden brown.",
+                "time": 1020,
+                "hardware": [
+                    "Oven"
+                ],
+                "ingredients": [
+                ],
+                "active": 0,
+                "dependency": [
+                    1, 3
+                ]
+            }
+        ],
+        "prepTime": 600,
+        "cookTime": 1020,
+        "servings": 8
+    }
+]

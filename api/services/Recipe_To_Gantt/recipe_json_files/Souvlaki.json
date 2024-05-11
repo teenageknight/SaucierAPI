@@ -1,0 +1,225 @@
+{
+    "name": "Souvlaki",
+    "description": "Souvlaki.",
+    "nutrients": {
+        "calories": "189 kcal",
+        "carbohydrateContent": "4 g",
+        "cholesterolContent": "65 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "24 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "354 mg",
+        "sugarContent": "1 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "olive oil",
+            "main_ingredient": "olive",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "soy sauce",
+            "main_ingredient": "soy",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "lemon",
+            "main_ingredient": "lemon",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "medium"
+        },
+        {
+            "name": "garlic",
+            "main_ingredient": "garlic",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "cloves"
+        },
+        {
+            "name": "oregano",
+            "main_ingredient": "oregano",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "pork tenderloin",
+            "main_ingredient": "pork",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "pounds"
+        },
+        {
+            "name": "yellow onions",
+            "main_ingredient": "onions",
+            "classifier": "yellow",
+            "amount": 2.0,
+            "unit": "medium"
+        },
+        {
+            "name": "green bell peppers",
+            "main_ingredient": "bell peppers",
+            "classifier": "green",
+            "amount": 2.0,
+            "unit": "medium"
+        },
+        {
+            "name": "skewers",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": 0.0,
+            "unit": ""
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Gather Ingredients",
+            "description": "Gather all ingredients.",
+            "time": 300,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Mix Ingredients",
+            "description": "Mix oil, soy sauce, lemon juice, garlic, and oregano together in a large glass bowl.",
+            "time": 0,
+            "hardware": [
+                "bowl"
+            ],
+            "ingredients": [
+                {
+                    "name": "olive oil",
+                    "main_ingredient": "olive",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "soy sauce",
+                    "main_ingredient": "soy",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "lemon",
+                    "main_ingredient": "lemon",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "medium"
+                },
+                {
+                    "name": "garlic",
+                    "main_ingredient": "garlic",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "cloves"
+                },
+                {
+                    "name": "oregano",
+                    "main_ingredient": "oregano",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "1"
+            ]
+        },
+        {
+            "step_id": "3",
+            "name": "Marinate Ingredients",
+            "description": "Add pork, onions, and bell peppers, and stir until coated. Cover and refrigerate for 2 to 3 hours.",
+            "time": 7200,
+            "hardware": [
+                "refrigerator"
+            ],
+            "ingredients": [
+                {
+                    "name": "pork tenderloin",
+                    "main_ingredient": "pork",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "pounds"
+                },
+                {
+                    "name": "yellow onions",
+                    "main_ingredient": "onions",
+                    "classifier": "yellow",
+                    "amount": 2.0,
+                    "unit": "medium"
+                },
+                {
+                    "name": "green bell peppers",
+                    "main_ingredient": "bell peppers",
+                    "classifier": "green",
+                    "amount": 2.0,
+                    "unit": "medium"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "2"
+            ]
+        },
+        {
+            "step_id": "4",
+            "name": "Preheat Grill",
+            "description": "Preheat an outdoor grill for medium-high heat and lightly oil the grate.",
+            "time": 0,
+            "hardware": [
+                "grill",
+                "oil"
+            ],
+            "ingredients": [],
+            "active": 1,
+            "dependency": [
+                "3"
+            ]
+        },
+        {
+            "step_id": "5",
+            "name": "Skewer Ingredients",
+            "description": "Remove pork and vegetables from marinade and shake off excess; thread onto skewers. Discard remaining marinade.",
+            "time": 0,
+            "hardware": [
+                "skewers"
+            ],
+            "ingredients": [],
+            "active": 1,
+            "dependency": [
+                "4"
+            ]
+        },
+        {
+            "step_id": "6",
+            "name": "Grill Skewers",
+            "description": "Cook on the preheated grill, turning frequently, until pork is no longer pink in the middle, 10 to 15 minutes. An instant-read thermometer inserted into the center should read at least 145 degrees F (63 degrees C).",
+            "time": 900,
+            "hardware": [
+                "grill"
+            ],
+            "ingredients": [],
+            "active": 1,
+            "dependency": [
+                "5"
+            ]
+        }
+    ],
+    "prepTime": 1800,
+    "cookTime": 600,
+    "servings": 12
+}

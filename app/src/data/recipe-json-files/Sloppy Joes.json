@@ -1,0 +1,176 @@
+{
+    "name": "Sloppy Joes",
+    "description": "Sloppy Joes",
+    "img": "https://www.allrecipes.com/thmb/3k_RHFaM3L163SadypQ1uDjDiN8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/24264-sloppy-joes-dianne-3x2-1-16a5c18a55b94454b36a5424c9dd0c40.jpg",
+    "nutrients": {
+        "calories": "243 kcal",
+        "carbohydrateContent": "11 g",
+        "cholesterolContent": "57 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "14 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "397 mg",
+        "fatContent": "16 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "lean ground beef",
+            "main_ingredient": "beef",
+            "classifier": "lean",
+            "amount": 1,
+            "unit": "pound"
+        },
+        {
+            "name": "onion",
+            "main_ingredient": "vegetable",
+            "classifier": "chopped",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "green bell pepper",
+            "main_ingredient": "vegetable",
+            "classifier": "chopped",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "ketchup",
+            "main_ingredient": "tomato",
+            "amount": 0.75,
+            "unit": "cup"
+        },
+        {
+            "name": "brown sugar",
+            "main_ingredient": "sugar",
+            "amount": 1,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "yellow mustard",
+            "main_ingredient": "mustard",
+            "amount": 1,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "garlic powder",
+            "main_ingredient": "garlic",
+            "amount": 0.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "salt",
+            "unit": "to taste"
+        },
+        {
+            "name": "ground black pepper",
+            "main_ingredient": "pepper",
+            "unit": "to taste"
+        },
+        {
+            "name": "hamburger buns",
+            "main_ingredient": "bread",
+            "amount": 6,
+            "unit": "buns"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Sloppy Joes-1",
+            "name": "Cook Ground Beef and Vegetables",
+            "description": "Heat a large skillet over medium heat. Cook and stir lean ground beef in the hot skillet until some of the fat starts to render, 3 to 4 minutes. Add onion and bell pepper; continue to cook until vegetables have softened and beef is cooked through, 3 to 5 more minutes.",
+            "time": 4,
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "lean ground beef",
+                    "main_ingredient": "beef",
+                    "classifier": "lean",
+                    "amount": 1,
+                    "unit": "pound"
+                },
+                {
+                    "name": "onion",
+                    "main_ingredient": "vegetable",
+                    "classifier": "chopped",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "green bell pepper",
+                    "main_ingredient": "vegetable",
+                    "classifier": "chopped",
+                    "amount": 0.25,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Sloppy Joes-2",
+            "name": "Add Seasonings and Simmer",
+            "description": "Stir in ketchup, brown sugar, mustard, and garlic powder; season with salt and pepper. Reduce heat to low and simmer for 20 to 30 minutes.",
+            "time": 5,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "ketchup",
+                    "main_ingredient": "tomato",
+                    "amount": 0.75,
+                    "unit": "cup"
+                },
+                {
+                    "name": "brown sugar",
+                    "main_ingredient": "sugar",
+                    "amount": 1,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "yellow mustard",
+                    "main_ingredient": "mustard",
+                    "amount": 1,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "garlic powder",
+                    "main_ingredient": "garlic",
+                    "amount": 0.5,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Sloppy Joes-1"],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Sloppy Joes-3",
+            "name": "Assemble Sloppy Joes",
+            "description": "Divide meat mixture evenly among hamburger buns.",
+            "time": 5,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "meat mixture",
+                    "main_ingredient": "beef",
+                    "unit": "evenly among"
+                },
+                {
+                    "name": "hamburger buns",
+                    "main_ingredient": "bread",
+                    "amount": 6,
+                    "unit": "buns"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Sloppy Joes-2"],
+            "order_id": "3"
+        }
+    ],
+    "prepTime": 5,
+    "cookTime": 30,
+    "servings": 6
+}

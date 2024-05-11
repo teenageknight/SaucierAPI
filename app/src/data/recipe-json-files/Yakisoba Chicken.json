@@ -1,0 +1,195 @@
+{
+    "name": "Yakisoba Chicken",
+    "description": "Yakisoba Chicken",
+    "img": "https://www.allrecipes.com/thmb/iw7o3nDT9Oix_fPJXkJGlZyhFPo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4553680-yakisoba-chicken-lindsayjboyd-4x3-1-f1c0f8bb98444cd7b9b4376a73d7ae69.jpg",
+    "nutrients": {
+        "calories": "295 kcal",
+        "carbohydrateContent": "41 g",
+        "cholesterolContent": "46 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "26 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "1621 mg",
+        "sugarContent": "6 g",
+        "fatContent": "5 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "sesame oil",
+            "main_ingredient": "oil",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "canola oil",
+            "main_ingredient": "oil",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "chile paste",
+            "main_ingredient": "condiment",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "garlic",
+            "main_ingredient": "vegetable",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "cloves"
+        },
+        {
+            "name": "skinless, boneless chicken breast halves",
+            "main_ingredient": "poultry",
+            "classifier": "",
+            "amount": 4.0,
+            "unit": "pieces"
+        },
+        {
+            "name": "soy sauce",
+            "main_ingredient": "sauce",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "onion",
+            "main_ingredient": "vegetable",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "whole"
+        },
+        {
+            "name": "cabbage",
+            "main_ingredient": "vegetable",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "medium head"
+        },
+        {
+            "name": "carrots",
+            "main_ingredient": "vegetable",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "whole"
+        },
+        {
+            "name": "soba noodles",
+            "main_ingredient": "grain",
+            "classifier": "",
+            "amount": 8.0,
+            "unit": "ounces"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Yakisoba Chicken-1",
+            "name": "Stir-fry chicken with garlic and chili paste",
+            "description": "In a large skillet combine sesame oil, canola oil and chili paste; stir-fry 30 seconds. Add garlic and stir fry an additional 30 seconds. Add chicken and 1/4 cup of the soy sauce and stir fry until chicken is no longer pink, about 5 minutes. Remove mixture from pan, set aside, and keep warm.",
+            "time": 16,
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "sesame oil",
+                    "main_ingredient": "oil",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "canola oil",
+                    "main_ingredient": "oil",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "chile paste",
+                    "main_ingredient": "condiment",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "garlic",
+                    "main_ingredient": "vegetable",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "cloves"
+                },
+                {
+                    "name": "skinless, boneless chicken breast halves",
+                    "main_ingredient": "poultry",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": "pieces"
+                },
+                {
+                    "name": "soy sauce",
+                    "main_ingredient": "sauce",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Yakisoba Chicken-2",
+            "name": "Stir-fry vegetables and noodles",
+            "description": "In the emptied pan combine the onion, cabbage, and carrots. Stir-fry until cabbage begins to wilt, 2 to 3 minutes. Stir in the remaining soy sauce, cooked noodles, and the chicken mixture to pan and mix to blend. Serve and enjoy!",
+            "time": 5,
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "onion",
+                    "main_ingredient": "vegetable",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "whole"
+                },
+                {
+                    "name": "cabbage",
+                    "main_ingredient": "vegetable",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "medium head"
+                },
+                {
+                    "name": "carrots",
+                    "main_ingredient": "vegetable",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "whole"
+                },
+                {
+                    "name": "soy sauce",
+                    "main_ingredient": "sauce",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "soba noodles",
+                    "main_ingredient": "grain",
+                    "classifier": "cooked and drained",
+                    "amount": 8.0,
+                    "unit": "ounces"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Yakisoba Chicken-1"],
+            "order_id": "2"
+        }
+    ],
+    "prepTime": 3,
+    "cookTime": 3,
+    "servings": 6
+}

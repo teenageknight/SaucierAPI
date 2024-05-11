@@ -1,0 +1,204 @@
+{
+    "name": "Simple Macaroni and Cheese",
+    "description": "Simple Macaroni and Cheese",
+    "nutrients": {
+        "calories": "630 kcal",
+        "carbohydrateContent": "55 g",
+        "cholesterolContent": "100 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "27 g",
+        "saturatedFatContent": "21 g",
+        "sodiumContent": "777 mg",
+        "sugarContent": "8 g",
+        "fatContent": "34 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "elbow macaroni",
+            "main_ingredient": "pasta",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "box"
+        },
+        {
+            "name": "butter",
+            "main_ingredient": "dairy",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "all-purpose flour",
+            "main_ingredient": "flour",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "cup"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "seasoning",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "ground black pepper",
+            "main_ingredient": "seasoning",
+            "classifier": "",
+            "amount": 0.0,
+            "unit": "to taste"
+        },
+        {
+            "name": "milk",
+            "main_ingredient": "dairy",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "cups"
+        },
+        {
+            "name": "Cheddar cheese",
+            "main_ingredient": "cheese",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "cups"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Boil Macaroni",
+            "description": "Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes.",
+            "time": 480,
+            "hardware": [
+                "pot"
+            ],
+            "ingredients": [
+                {
+                    "name": "elbow macaroni",
+                    "main_ingredient": "pasta",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "box"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Melt Butter",
+            "description": "At the same time, melt butter in a saucepan over medium heat.",
+            "time": 0,
+            "hardware": [
+                "saucepan"
+            ],
+            "ingredients": [
+                {
+                    "name": "butter",
+                    "main_ingredient": "dairy",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                }
+            ],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "3",
+            "name": "Make Roux",
+            "description": "Add flour, salt, and pepper and stir until smooth, about 5 minutes.",
+            "time": 300,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "all-purpose flour",
+                    "main_ingredient": "flour",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "cup"
+                },
+                {
+                    "name": "salt",
+                    "main_ingredient": "seasoning",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "ground black pepper",
+                    "main_ingredient": "seasoning",
+                    "classifier": "",
+                    "amount": 0.0,
+                    "unit": "to taste"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "4",
+            "name": "Make Cheese Sauce",
+            "description": "Pour in milk slowly, while stirring continuously. Continue to cook and stir until mixture is smooth and bubbling, about 5 minutes, making sure the milk doesn't burn. Add Cheddar cheese and stir until melted, 2 to 4 minutes.",
+            "time": 540,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "milk",
+                    "main_ingredient": "dairy",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "cups"
+                },
+                {
+                    "name": "Cheddar cheese",
+                    "main_ingredient": "cheese",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "cups"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                3
+            ]
+        },
+        {
+            "step_id": "5",
+            "name": "Combine Macaroni and Cheese Sauce",
+            "description": "Drain macaroni and fold into cheese sauce until coated.",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "elbow macaroni",
+                    "main_ingredient": "pasta",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "box"
+                }
+            ],
+            "active": 0,
+            "dependency": [
+                1,
+                4
+            ]
+        },
+        {
+            "step_id": "6",
+            "name": "Serve",
+            "description": "Serve hot and enjoy!",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [
+                5
+            ]
+        }
+    ],
+    "prepTime": 600,
+    "cookTime": 900,
+    "servings": 4
+}

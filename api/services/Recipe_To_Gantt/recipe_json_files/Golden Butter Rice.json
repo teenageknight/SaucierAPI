@@ -1,0 +1,220 @@
+{
+    "name": "Golden Butter Rice",
+    "description": "Golden Butter Rice",
+    "nutrients": {
+        "calories": "161 kcal",
+        "carbohydrateContent": "13 g",
+        "cholesterolContent": "31 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "7 g",
+        "sodiumContent": "271 mg",
+        "sugarContent": "1 g",
+        "fatContent": "12 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "unsalted butter",
+            "main_ingredient": "BUTTER",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "fresh ginger",
+            "main_ingredient": "GINGER",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "ground turmeric",
+            "main_ingredient": "TURMERIC",
+            "classifier": "",
+            "amount": 1.25,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "cayenne pepper",
+            "main_ingredient": "PEPPER",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "brown sugar",
+            "main_ingredient": "SUGAR",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "salt",
+            "main_ingredient": "SALT",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "basmati rice or other long grain white rice",
+            "main_ingredient": "RICE",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "cups"
+        },
+        {
+            "name": "water",
+            "main_ingredient": "WATER",
+            "classifier": "",
+            "amount": 3.0,
+            "unit": "cups"
+        },
+        {
+            "name": "walnuts",
+            "main_ingredient": "WALNUT",
+            "classifier": "",
+            "amount": 0.33,
+            "unit": "cup"
+        },
+        {
+            "name": "green onions",
+            "main_ingredient": "ONIONS",
+            "classifier": "",
+            "amount": 0.33,
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Melt butter with spices",
+            "description": "Melt butter in a pan or pot with a tight-fitting lid over medium heat. As soon as butter starts to bubble, add in ginger, turmeric, cayenne, brown sugar, and salt. Cook, whisking, for 1 minute.",
+            "time": 60,
+            "hardware": [
+                "pan",
+                "pot",
+                "whisk"
+            ],
+            "ingredients": [
+                {
+                    "name": "unsalted butter",
+                    "main_ingredient": "BUTTER",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "fresh ginger",
+                    "main_ingredient": "GINGER",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "ground turmeric",
+                    "main_ingredient": "TURMERIC",
+                    "classifier": "",
+                    "amount": 1.25,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "cayenne pepper",
+                    "main_ingredient": "PEPPER",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "brown sugar",
+                    "main_ingredient": "SUGAR",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "salt",
+                    "main_ingredient": "SALT",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Cook rice",
+            "description": "Add rice, and stir until every grain is coated with butter. Stir in water, and bring to a boil over high heat. As soon as it begins to boil, gently shake and swirl the pan to settle rice into an even layer, then reduce heat to medium-low.",
+            "time": 60,
+            "hardware": [
+                "pan"
+            ],
+            "ingredients": [
+                {
+                    "name": "basmati rice or other long grain white rice",
+                    "main_ingredient": "RICE",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "cups"
+                },
+                {
+                    "name": "water",
+                    "main_ingredient": "WATER",
+                    "classifier": "",
+                    "amount": 3.0,
+                    "unit": "cups"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "1"
+            ]
+        },
+        {
+            "step_id": "3",
+            "name": "Simmer rice",
+            "description": "Cover tightly and simmer for 15 minutes. Turn off heat, and let rest, covered, for 10 minutes. DO NOT lift the lid or try to stir yet.",
+            "time": 1500,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [
+                "2"
+            ]
+        },
+        {
+            "step_id": "4",
+            "name": "Fluff and serve",
+            "description": "Now, remove the lid and use a fork to fluff and separate rice grains. Season to taste, and serve immediately, garnished with walnuts and green onions.",
+            "time": 0,
+            "hardware": [
+                "fork"
+            ],
+            "ingredients": [
+                {
+                    "name": "walnuts",
+                    "main_ingredient": "WALNUT",
+                    "classifier": "",
+                    "amount": 0.33,
+                    "unit": "cup"
+                },
+                {
+                    "name": "green onions",
+                    "main_ingredient": "ONIONS",
+                    "classifier": "",
+                    "amount": 0.33,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "3"
+            ]
+        }
+    ],
+    "prepTime": 300,
+    "cookTime": 1200,
+    "servings": 8
+}

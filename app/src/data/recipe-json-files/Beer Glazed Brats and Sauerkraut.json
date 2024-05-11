@@ -1,0 +1,247 @@
+{
+    "name": "Beer Glazed Brats and Sauerkraut",
+    "description": "Beer Glazed Brats and Sauerkraut",
+    "img": "https://www.allrecipes.com/thmb/IgjJ0SVq3DP6dLP8L1RjSCG58ws=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/876299-beer-glazed-brats-and-sauerkraut-lutzflcat-4x3-1-ad5b558798074b518a3fec25a4a40ceb.jpg",
+    "ingredients": [
+        {
+            "name": "celery seeds",
+            "main_ingredient": "celery seeds",
+            "classifier": "",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "caraway seeds",
+            "main_ingredient": "caraway seeds",
+            "classifier": "",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "lager beer",
+            "main_ingredient": "beer",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "can or bottle"
+        },
+        {
+            "name": "light brown sugar",
+            "main_ingredient": "sugar",
+            "classifier": "light brown",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "dry mustard powder",
+            "main_ingredient": "mustard",
+            "classifier": "dry",
+            "amount": 2.0,
+            "unit": "teaspoons"
+        },
+        {
+            "name": "onion powder",
+            "main_ingredient": "onion",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "ground black pepper",
+            "main_ingredient": "pepper",
+            "classifier": "ground black",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "dill weed",
+            "main_ingredient": "dill",
+            "classifier": "dried",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "fresh bratwurst sausages",
+            "main_ingredient": "sausages",
+            "classifier": "fresh bratwurst",
+            "amount": 1.0,
+            "unit": "pound"
+        },
+        {
+            "name": "sauerkraut",
+            "main_ingredient": "sauerkraut",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "pound"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Beer Glazed Brats and Sauerkraut-1",
+            "name": "Crush seeds",
+            "description": "Crush celery seeds and caraway seeds with a mortar and pestle until ground.",
+            "time": "2",
+            "hardware": ["mortar and pestle"],
+            "ingredients": [
+                {
+                    "name": "celery seeds",
+                    "main_ingredient": "celery seeds",
+                    "classifier": "",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "caraway seeds",
+                    "main_ingredient": "caraway seeds",
+                    "classifier": "",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Beer Glazed Brats and Sauerkraut-2",
+            "name": "Mix beer mixture",
+            "description": "Mix beer, brown sugar, dry mustard, onion powder, pepper, dill, and crushed seeds together in a bowl until brown sugar is dissolved.",
+            "time": "2",
+            "hardware": ["bowl"],
+            "ingredients": [
+                {
+                    "name": "lager beer",
+                    "main_ingredient": "beer",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "can or bottle"
+                },
+                {
+                    "name": "light brown sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "light brown",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "dry mustard powder",
+                    "main_ingredient": "mustard",
+                    "classifier": "dry",
+                    "amount": 2.0,
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "onion powder",
+                    "main_ingredient": "onion",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "ground black pepper",
+                    "main_ingredient": "pepper",
+                    "classifier": "ground black",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "dill weed",
+                    "main_ingredient": "dill",
+                    "classifier": "dried",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "celery seeds",
+                    "main_ingredient": "celery seeds",
+                    "classifier": "",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "caraway seeds",
+                    "main_ingredient": "caraway seeds",
+                    "classifier": "",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Beer Glazed Brats and Sauerkraut-1"],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Beer Glazed Brats and Sauerkraut-3",
+            "name": "Cook brats",
+            "description": "Place brats into a large nonstick skillet over medium heat. Pour beer mixture over top and bring to a boil. Reduce the heat to low, cover, and simmer for 10 minutes.",
+            "time": "10",
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "fresh bratwurst sausages",
+                    "main_ingredient": "sausages",
+                    "classifier": "fresh bratwurst",
+                    "amount": 1.0,
+                    "unit": "pound"
+                },
+                {
+                    "name": "beer mixture",
+                    "main_ingredient": "beer mixture",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "recipe"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Beer Glazed Brats and Sauerkraut-2"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Beer Glazed Brats and Sauerkraut-4",
+            "name": "Glaze and finish brats",
+            "description": "Uncover and increase the heat to medium. Boil the sauce until it reduces to a thick, syrupy liquid, about 20 minutes. Tilt the skillet to roll brats in the sticky sauce until thoroughly coated. Transfer brats to a plate and cover to keep warm.",
+            "time": "20",
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "brats",
+                    "main_ingredient": "sausages",
+                    "classifier": "brats",
+                    "amount": 1.0,
+                    "unit": "recipe"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Beer Glazed Brats and Sauerkraut-3"],
+            "order_id": "4"
+        },
+        {
+            "step_id": "Beer Glazed Brats and Sauerkraut-5",
+            "name": "Cook sauerkraut",
+            "description": "Add sauerkraut to the skillet and stir to combine with any leftover sauce; cook for 5 to 8 minutes. Transfer sauerkraut to a serving platter and top with warm brats.",
+            "time": "7",
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "sauerkraut",
+                    "main_ingredient": "sauerkraut",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "pound"
+                },
+                {
+                    "name": "beef mixture",
+                    "main_ingredient": "mixture",
+                    "classifier": "beer",
+                    "amount": 1.0,
+                    "unit": "recipe"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Beer Glazed Brats and Sauerkraut-4"],
+            "order_id": "5"
+        }
+    ],
+    "prepTime": "4",
+    "cookTime": "37",
+    "servings": 4
+}

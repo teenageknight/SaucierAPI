@@ -1,0 +1,119 @@
+{
+    "name": "Strawberry Banana Protein Smoothie",
+    "description": "Strawberry Banana Protein Smoothie",
+    "nutrients": {
+        "calories": "349 kcal",
+        "carbohydrateContent": "53 g",
+        "fiberContent": "10 g",
+        "proteinContent": "21 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "195 mg",
+        "sugarContent": "25 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "sliced fresh strawberries",
+            "main_ingredient": "strawberries",
+            "classifier": "sliced",
+            "amount": 1.25,
+            "unit": "cups"
+        },
+        {
+            "name": "banana",
+            "main_ingredient": "banana",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": ""
+        },
+        {
+            "name": "whole almonds",
+            "main_ingredient": "almonds",
+            "classifier": "whole",
+            "amount": 10.0,
+            "unit": "pieces"
+        },
+        {
+            "name": "water",
+            "main_ingredient": "water",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "ice cubes",
+            "main_ingredient": "ice",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "chocolate flavored protein powder",
+            "main_ingredient": "protein powder",
+            "classifier": "chocolate flavored",
+            "amount": 3.0,
+            "unit": "tablespoons"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Blending ingredients",
+            "description": "Place strawberries, banana, almonds, and water into a blender; blend to combine. Add ice cubes and puree until smooth. Add protein powder and mix until evenly incorporated, about 30 seconds.",
+            "time": 30,
+            "hardware": [
+                "blender"
+            ],
+            "ingredients": [
+                {
+                    "name": "sliced fresh strawberries",
+                    "main_ingredient": "strawberries",
+                    "classifier": "sliced",
+                    "amount": 1.25,
+                    "unit": "cups"
+                },
+                {
+                    "name": "banana",
+                    "main_ingredient": "banana",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": ""
+                },
+                {
+                    "name": "whole almonds",
+                    "main_ingredient": "almonds",
+                    "classifier": "whole",
+                    "amount": 10.0,
+                    "unit": "pieces"
+                },
+                {
+                    "name": "water",
+                    "main_ingredient": "water",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "ice cubes",
+                    "main_ingredient": "ice",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "chocolate flavored protein powder",
+                    "main_ingredient": "protein powder",
+                    "classifier": "chocolate flavored",
+                    "amount": 3.0,
+                    "unit": "tablespoons"
+                }
+            ],
+            "active": 1,
+            "dependency": []
+        }
+    ],
+    "prepTime": 600,
+    "cookTime": 0,
+    "servings": 1
+}

@@ -1,0 +1,51 @@
+/* ====================================
+Typography - sets default typography
+---------------------------------------
+Sections:
+- Base
+- Headings
+- Table Content
+==================================== */
+
+@use "../abstract/index" as *;
+html {
+  @include base-font-size;
+}
+
+body {
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $title-font-family;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Headings
+ * - only use h1 - h4
+ */
+
+$type-levels: 4, 3, 2, 1;
+$level-size: $type-base-size;
+@each $level in $type-levels {
+  $level-size: $level-size * $type-scale;
+  h#{$level} {
+    font-size: $level-size;
+    text-rendering: optimizelegibility; // Fix the character spacing for headings
+  }
+}

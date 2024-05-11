@@ -1,0 +1,258 @@
+{
+    "name": "Apple Fritter Pancakes",
+    "description": "Apple Fritter Pancakes",
+    "nutrients": {
+        "calories": "314 kcal",
+        "carbohydrateContent": "40 g",
+        "cholesterolContent": "124 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "8 g",
+        "sodiumContent": "498 mg",
+        "fatContent": "15 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "large egg",
+            "main_ingredient": "egg",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": ""
+        },
+        {
+            "name": "white sugar",
+            "main_ingredient": "sugar",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "ground cinnamon",
+            "main_ingredient": "cinnamon",
+            "classifier": "ground",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "ground ginger",
+            "main_ingredient": "ginger",
+            "classifier": "ground",
+            "amount": 1.0,
+            "unit": "pinch"
+        },
+        {
+            "name": "nutmeg",
+            "main_ingredient": "nutmeg",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "pinch"
+        },
+        {
+            "name": "kosher salt",
+            "main_ingredient": "salt",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "pure vanilla extract",
+            "main_ingredient": "vanilla extract",
+            "classifier": "pure",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "shredded apple",
+            "main_ingredient": "apple",
+            "classifier": "shredded",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "lemon juice",
+            "main_ingredient": "lemon juice",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "all-purpose flour",
+            "main_ingredient": "flour",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "cup"
+        },
+        {
+            "name": "baking powder",
+            "main_ingredient": "baking powder",
+            "classifier": "",
+            "amount": 0.25,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "baking soda",
+            "main_ingredient": "baking soda",
+            "classifier": "",
+            "amount": 0.125,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "melted butter",
+            "main_ingredient": "butter",
+            "classifier": "melted",
+            "amount": 2.0,
+            "unit": "tablespoon"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Gather ingredients",
+            "description": "Gather the ingredients.",
+            "time": 10,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Prepare batter",
+            "description": "Combine egg, sugar, cinnamon, ginger, nutmeg, kosher salt, and vanilla extract in a bowl. Whisk until well combined and lightly foamy. Add shredded apple and lemon juice and fold in with a spatula until well combined. Add flour, baking powder, and baking soda. Mix until flour disappears and batter is thick yet spoonable.",
+            "time": 0,
+            "hardware": [
+                "bowl",
+                "whisk",
+                "spatula"
+            ],
+            "ingredients": [
+                {
+                    "name": "large egg",
+                    "main_ingredient": "egg",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": ""
+                },
+                {
+                    "name": "white sugar",
+                    "main_ingredient": "sugar",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "ground cinnamon",
+                    "main_ingredient": "cinnamon",
+                    "classifier": "ground",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "ground ginger",
+                    "main_ingredient": "ginger",
+                    "classifier": "ground",
+                    "amount": 1.0,
+                    "unit": "pinch"
+                },
+                {
+                    "name": "nutmeg",
+                    "main_ingredient": "nutmeg",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "pinch"
+                },
+                {
+                    "name": "kosher salt",
+                    "main_ingredient": "salt",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "pure vanilla extract",
+                    "main_ingredient": "vanilla extract",
+                    "classifier": "pure",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "shredded apple",
+                    "main_ingredient": "apple",
+                    "classifier": "shredded",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "lemon juice",
+                    "main_ingredient": "lemon juice",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "all-purpose flour",
+                    "main_ingredient": "flour",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "cup"
+                },
+                {
+                    "name": "baking powder",
+                    "main_ingredient": "baking powder",
+                    "classifier": "",
+                    "amount": 0.25,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "baking soda",
+                    "main_ingredient": "baking soda",
+                    "classifier": "",
+                    "amount": 0.125,
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "1"
+            ]
+        },
+        {
+            "step_id": "3",
+            "name": "Cook apple pancakes",
+            "description": "Melt butter in a skillet over medium heat. Add tablespoonfuls of apple batter to the hot butter and cook until browned, about 3 minutes. Turn and cook until apple pancakes spring back to the touch and are browned on the other side, an additional 3 minutes.",
+            "time": 360,
+            "hardware": [
+                "skillet"
+            ],
+            "ingredients": [
+                {
+                    "name": "melted butter",
+                    "main_ingredient": "butter",
+                    "classifier": "melted",
+                    "amount": 2.0,
+                    "unit": "tablespoon"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "2"
+            ]
+        },
+        {
+            "step_id": "4",
+            "name": "Serve and enjoy",
+            "description": "Serve and enjoy!",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [
+                "3"
+            ]
+        }
+    ],
+    "prepTime": 600,
+    "cookTime": 360,
+    "servings": 2
+}

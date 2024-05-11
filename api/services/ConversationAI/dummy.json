@@ -1,0 +1,190 @@
+[
+	{
+		"recipe_id": "1",
+		"name": "Basic Crêpes",
+		"description": "This simple but delicious crêpe recipe can be made in minutes from ingredients that everyone has on hand.",
+		"ingredients": [
+			"all-purpose flour",
+			"large eggs",
+			"milk",
+			"water",
+			"salt",
+			"melted butter"
+		],
+		"steps": [
+			{
+				"step_id": "Basic Crêpes-1",
+				"name": "Mix ingredients.",
+				"description": "Whisk flour and eggs together in a large mixing bowl; gradually add in milk and water, stirring to combine. Add salt and melted butter; beat until smooth.",
+				"time": 300,
+				"hardware": [
+					"Large mixing bowl."
+				],
+				"ingredients": [
+					{
+						"name": "all-purpose flour",
+						"amount": 1,
+						"unit": "cup"
+					},
+					{
+						"name": "large eggs",
+						"amount": 2,
+						"unit": ""
+					},
+					{
+						"name": "milk",
+						"amount": 0.5,
+						"unit": "cup"
+					},
+					{
+						"name": "water",
+						"amount": 0.5,
+						"unit": "cup"
+					},
+					{
+						"name": "salt",
+						"amount": 0.25,
+						"unit": "teaspoon"
+					},
+					{
+						"name": "melted butter",
+						"amount": 2,
+						"unit": "tablespoons"
+					}
+				],
+				"active": 1,
+				"dependency": [],
+				"order_id": 1
+			},
+			{
+				"step_id": "Basic Crêpes-2",
+				"name": "Heat a pan.",
+				"description": "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+				"time": 300,
+				"hardware": [
+					"Frying Pan"
+				],
+				"ingredients": [
+					{
+						"name": "Frying Pan",
+						"amount": 1,
+						"unit": ""
+					}
+				],
+				"active": 0,
+				"dependency": [],
+				"order_id": 2
+			},
+			{
+				"step_id": "Basic Crêpes-3",
+				"name": "Bake crapes.",
+				"description": "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crêpe. Tilt the pan with a circular motion so that the batter coats the surface evenly. Cook until the top of the crêpe is no longer wet and the bottom has turned light brown, 1 to 2 minutes.",
+				"time": 1200,
+				"hardware": [
+					"Frying Pan"
+				],
+				"ingredients": [
+					{
+						"name": "Frying Pan",
+						"amount": 1,
+						"unit": ""
+					}
+				],
+				"active": 1,
+				"dependency": [
+					"Basic Crêpes-1",
+					"Basic Crêpes-2"
+				],
+				"order_id": 3
+			}
+		],
+		"prepTime": 600,
+		"cookTime": 1200,
+		"servings": 4
+	},
+	{
+		"recipe_id": "2",
+		"name": "Easy Breakfast Tortilla Pizza.",
+		"description": "It's perfect for feeding kids and they can customize their own breakfast pizza as they like.",
+		"ingredients": [
+			"softened butter",
+			"tortilla",
+			"large eggs",
+			"salt",
+			"freshly ground black pepper"
+		],
+		"steps": [
+			{
+				"step_id": "Easy Breakfast Tortilla Pizza.-1",
+				"name": "Reheat oven.",
+				"description": "Preheat the oven to 350 degrees F (175 degrees C).",
+				"time": 300,
+				"hardware": [
+					"oven"
+				],
+				"ingredients": [],
+				"active": 0,
+				"dependency": [],
+				"order_id": 1
+			},
+			{
+				"step_id": "Easy Breakfast Tortilla Pizza.-2",
+				"name": "Prepare the tortilla.",
+				"description": "Rub butter along the bottom and sides of a 8 or 9 inch cake pan.  Press tortilla down into the buttered pan and against the sides. Crack each egg next to each other on the tortilla.  Sprinkle with salt and pepper and add desired toppings evenly on top.",
+				"time": 300,
+				"hardware": [
+					"cake pan"
+				],
+				"ingredients": [
+					{
+						"name": "softened butter",
+						"amount": 0.5,
+						"unit": "tablespoon"
+					},
+					{
+						"name": "tortilla",
+						"amount": 1,
+						"unit": "10-inch"
+					},
+					{
+						"name": "large eggs",
+						"amount": 3,
+						"unit": ""
+					},
+					{
+						"name": "salt",
+						"amount": 0.25,
+						"unit": "teaspoon"
+					},
+					{
+						"name": "freshly ground black pepper",
+						"amount": 0.25,
+						"unit": "teaspoon"
+					}
+				],
+				"active": 1,
+				"dependency": [],
+				"order_id": 2
+			},
+			{
+				"step_id": "Easy Breakfast Tortilla Pizza.-3",
+				"name": "Bake.",
+				"description": "Bake in the preheated oven until egg whites are set and tortilla has become lightly browned and toasted along the edges and bottom, 13 to 15 minutes",
+				"time": 900,
+				"hardware": [
+					"oven"
+				],
+				"ingredients": [],
+				"active": 0,
+				"dependency": [
+					"Easy Breakfast Tortilla Pizza.-1",
+					"Easy Breakfast Tortilla Pizza.-2"
+				],
+				"order_id": 3
+			}
+		],
+		"prepTime": 1,
+		"cookTime": 15,
+		"servings": 4
+	}
+]

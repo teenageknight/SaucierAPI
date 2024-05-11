@@ -1,0 +1,251 @@
+{
+    "name": "Breakfast Pork Cutlets",
+    "description": "Breakfast Pork Cutlets",
+    "img": "https://www.allrecipes.com/thmb/OzPKeSP45V_BA37XPu_m1e9VKFA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BreakfastPorkCutletChefJohn2x1-8bf10b18615f426eb9d42a1762ad7691.jpg",
+    "nutrients": {
+        "calories": "464 kcal",
+        "carbohydrateContent": "25 g",
+        "cholesterolContent": "81 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "24 g",
+        "saturatedFatContent": "9 g",
+        "sodiumContent": "1232 mg",
+        "sugarContent": "6 g",
+        "fatContent": "30 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "fennel seeds",
+            "main_ingredient": "fennel seeds",
+            "classifier": "",
+            "amount": "1/4",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "black pepper",
+            "main_ingredient": "black pepper",
+            "classifier": "freshly ground",
+            "amount": "1/2",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "poultry seasoning",
+            "main_ingredient": "poultry seasoning",
+            "classifier": "",
+            "amount": "1/2",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "ground nutmeg",
+            "main_ingredient": "nutmeg",
+            "classifier": "",
+            "amount": "1/4",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "garlic powder",
+            "main_ingredient": "garlic powder",
+            "classifier": "",
+            "amount": "1/4",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "cayenne pepper",
+            "main_ingredient": "cayenne pepper",
+            "classifier": "",
+            "amount": "pinch",
+            "unit": ""
+        },
+        {
+            "name": "boneless center cut pork chops",
+            "main_ingredient": "pork chops",
+            "classifier": "boneless",
+            "amount": "2",
+            "unit": "6-8-ounce"
+        },
+        {
+            "name": "kosher salt",
+            "main_ingredient": "salt",
+            "classifier": "",
+            "amount": "1 1/2",
+            "unit": "teaspoons"
+        },
+        {
+            "name": "maple syrup",
+            "main_ingredient": "maple syrup",
+            "classifier": "",
+            "amount": "2",
+            "unit": "teaspoons"
+        },
+        {
+            "name": "breadcrumbs",
+            "main_ingredient": "breadcrumbs",
+            "classifier": "",
+            "amount": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "olive oil",
+            "main_ingredient": "olive oil",
+            "classifier": "",
+            "amount": "2",
+            "unit": "tablespoons"
+        },
+        {
+            "name": "butter",
+            "main_ingredient": "butter",
+            "classifier": "",
+            "amount": "1",
+            "unit": "tablespoon"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "1",
+            "name": "Prepare spice mix",
+            "description": "Crush fennel seeds in a mortar and pestle; transfer to a small bowl. Stir in black pepper, poultry seasoning, nutmeg, garlic powder, and cayenne; set aside.",
+            "time": "5 minutes",
+            "hardware": ["mortar and pestle", "small bowl"],
+            "ingredients": [
+                {
+                    "name": "fennel seeds",
+                    "main_ingredient": "fennel seeds",
+                    "classifier": "",
+                    "amount": "1/4",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "black pepper",
+                    "main_ingredient": "black pepper",
+                    "classifier": "freshly ground",
+                    "amount": "1/2",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "poultry seasoning",
+                    "main_ingredient": "poultry seasoning",
+                    "classifier": "",
+                    "amount": "1/2",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "ground nutmeg",
+                    "main_ingredient": "nutmeg",
+                    "classifier": "",
+                    "amount": "1/4",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "garlic powder",
+                    "main_ingredient": "garlic powder",
+                    "classifier": "",
+                    "amount": "1/4",
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "cayenne pepper",
+                    "main_ingredient": "cayenne pepper",
+                    "classifier": "",
+                    "amount": "pinch",
+                    "unit": ""
+                }
+            ],
+            "active": 0,
+            "dependency": []
+        },
+        {
+            "step_id": "2",
+            "name": "Prepare pork chops",
+            "description": "Make several shallow vertical cuts through fat on edges of each pork chop. Place each chop between 2 pieces of plastic wrap; pound to 1/4-inch thick using a meat pounder or heavy flat object. Transfer to a plate.",
+            "time": "10 minutes",
+            "hardware": [
+                "meat pounder or heavy flat object",
+                "plastic wrap",
+                "plate"
+            ],
+            "ingredients": [
+                {
+                    "name": "boneless center cut pork chops",
+                    "main_ingredient": "pork chops",
+                    "classifier": "boneless",
+                    "amount": "2",
+                    "unit": "6-8-ounce"
+                }
+            ],
+            "active": 1,
+            "dependency": ["1"]
+        },
+        {
+            "step_id": "3",
+            "name": "Season and coat pork chops",
+            "description": "Season both sides of chops with salt; sprinkle both sides with spice mix. Rub or brush each side of chops with about \u00bd teaspoon maple syrup.",
+            "time": "5 minutes",
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "kosher salt",
+                    "main_ingredient": "salt",
+                    "classifier": "",
+                    "amount": "1 1/2",
+                    "unit": "teaspoons"
+                },
+                {
+                    "name": "maple syrup",
+                    "main_ingredient": "maple syrup",
+                    "classifier": "",
+                    "amount": "2",
+                    "unit": "teaspoons"
+                }
+            ],
+            "active": 1,
+            "dependency": ["2"]
+        },
+        {
+            "step_id": "4",
+            "name": "Coat pork chops with breadcrumbs",
+            "description": "Sprinkle each chop on one side with breadcrumbs; press in firmly. Turn over and repeat.",
+            "time": "5 minutes",
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "breadcrumbs",
+                    "main_ingredient": "breadcrumbs",
+                    "classifier": "",
+                    "amount": "1/2",
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": ["3"]
+        },
+        {
+            "step_id": "5",
+            "name": "Pan fry pork cutlets",
+            "description": "Heat olive oil and butter in a nonstick skillet over medium to medium-high heat. Pan fry pork cutlets, turning once, until meat is no longer pink at the center and edges are browned and crisp, about 2 minutes per side. An instant-read thermometer inserted near the center should read 145 degrees F (63 degrees C).",
+            "time": "10 minutes",
+            "hardware": ["nonstick skillet", "instant-read thermometer"],
+            "ingredients": [
+                {
+                    "name": "olive oil",
+                    "main_ingredient": "olive oil",
+                    "classifier": "",
+                    "amount": "2",
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "butter",
+                    "main_ingredient": "butter",
+                    "classifier": "",
+                    "amount": "1",
+                    "unit": "tablespoon"
+                }
+            ],
+            "active": 1,
+            "dependency": ["4"]
+        }
+    ],
+    "prepTime": "20 min",
+    "cookTime": "15 min",
+    "servings": "2 servings"
+}

@@ -1,0 +1,173 @@
+{
+    "name": "Best Chicken Salad",
+    "description": "Best Chicken Salad",
+    "img": "https://www.allrecipes.com/thmb/JinyDdyciYyLFjlLvXNqrnJ9jsM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8499-basic-chicken-salad-DDMFS-4x3-1edf4d259ac9437da114bdcee84337ee.jpg",
+    "nutrients": {
+        "calories": "779 kcal",
+        "carbohydrateContent": "8 g",
+        "cholesterolContent": "126 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "44 g",
+        "saturatedFatContent": "9 g",
+        "sodiumContent": "403 mg",
+        "sugarContent": "2 g",
+        "fatContent": "63 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "blanched slivered almonds",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": "½",
+            "unit": "cup"
+        },
+        {
+            "name": "mayonnaise",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": "½",
+            "unit": "cup"
+        },
+        {
+            "name": "lemon juice",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": "1",
+            "unit": "tablespoon"
+        },
+        {
+            "name": "ground black pepper",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": "¼",
+            "unit": "teaspoon"
+        },
+        {
+            "name": "chopped, cooked chicken meat",
+            "main_ingredient": "chicken",
+            "classifier": "cooked",
+            "amount": "2",
+            "unit": "cups"
+        },
+        {
+            "name": "celery",
+            "main_ingredient": "",
+            "classifier": "",
+            "amount": "1",
+            "unit": "stalk"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Best Chicken Salad-1",
+            "name": "Gather Ingredients",
+            "description": "Gather all ingredients.",
+            "time": "1",
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Best Chicken Salad-2",
+            "name": "Toast Almonds",
+            "description": "Place almonds in a frying pan. Toast over medium-high heat, shaking frequently. Watch carefully, as they burn easily.",
+            "time": "5",
+            "hardware": ["frying pan"],
+            "ingredients": [
+                {
+                    "name": "blanched slivered almonds",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": "½",
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Best Chicken Salad-1"],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Best Chicken Salad-3",
+            "name": "Mix Mayonnaise",
+            "description": "Mix together mayonnaise, lemon juice, and pepper in a medium bowl.",
+            "time": "2",
+            "hardware": ["bowl"],
+            "ingredients": [
+                {
+                    "name": "mayonnaise",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": "½",
+                    "unit": "cup"
+                },
+                {
+                    "name": "lemon juice",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": "1",
+                    "unit": "tablespoon"
+                },
+                {
+                    "name": "ground black pepper",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": "¼",
+                    "unit": "teaspoon"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Best Chicken Salad-1"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Best Chicken Salad-4",
+            "name": "Mix Salad",
+            "description": "Toss with chicken, toasted almonds, and celery.",
+            "time": "2",
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "chopped, cooked chicken meat",
+                    "main_ingredient": "chicken",
+                    "classifier": "cooked",
+                    "amount": "2",
+                    "unit": "cups"
+                },
+                {
+                    "name": "blanched slivered almonds",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": "½",
+                    "unit": "cup"
+                },
+                {
+                    "name": "celery",
+                    "main_ingredient": "",
+                    "classifier": "",
+                    "amount": "1",
+                    "unit": "stalk"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Best Chicken Salad-2", "Best Chicken Salad-3"],
+            "order_id": "4"
+        },
+        {
+            "step_id": "Best Chicken Salad-5",
+            "name": "Enjoy Salad",
+            "description": "Enjoy!",
+            "time": "0",
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["Best Chicken Salad-4"],
+            "order_id": "5"
+        }
+    ],
+    "prepTime": "1",
+    "cookTime": "9",
+    "servings": "2"
+}

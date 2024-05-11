@@ -1,0 +1,163 @@
+{
+    "name": "Slow Cooker Buffalo Chicken Sandwiches",
+    "description": "Slow Cooker Buffalo Chicken Sandwiches",
+    "img": "https://www.allrecipes.com/thmb/Udsj8f2blRWNkXbUIJrAEjykmJE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/176132-slow-cooker-buffalo-chicken-sandwiches-DDMFS-4x3-340-8946a0eef3a242e18746425348cd17dc.jpg",
+    "nutrients": {
+        "calories": "578 kcal",
+        "carbohydrateContent": "81 g",
+        "cholesterolContent": "54 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "31 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "2902 mg",
+        "sugarContent": "5 g",
+        "fatContent": "14 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "4 skinless, boneless chicken breast halves",
+            "main_ingredient": "chicken",
+            "classifier": "",
+            "amount": 4.0,
+            "unit": "breast halves"
+        },
+        {
+            "name": "1 (17.5 fluid ounce) bottle Buffalo wing sauce, divided",
+            "main_ingredient": "Buffalo wing sauce",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "bottle"
+        },
+        {
+            "name": "½ (1 ounce) package dry ranch salad dressing mix",
+            "main_ingredient": "ranch salad dressing mix",
+            "classifier": "",
+            "amount": 0.5,
+            "unit": "package"
+        },
+        {
+            "name": "2 tablespoons butter",
+            "main_ingredient": "butter",
+            "classifier": "",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "6 hoagie rolls, split lengthwise",
+            "main_ingredient": "hoagie rolls",
+            "classifier": "",
+            "amount": 6.0,
+            "unit": ""
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Slow Cooker Buffalo Chicken Sandwiches-1",
+            "name": "Gather all ingredients",
+            "description": "Gather all ingredients.",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Slow Cooker Buffalo Chicken Sandwiches-2",
+            "name": "Place chicken in slow cooker",
+            "description": "Place chicken breasts into the slow cooker; pour in 3/4 of the wing sauce and ranch dressing mix.",
+            "time": 1,
+            "hardware": ["slow cooker"],
+            "ingredients": [
+                {
+                    "name": "4 skinless, boneless chicken breast halves",
+                    "main_ingredient": "chicken",
+                    "classifier": "",
+                    "amount": 4.0,
+                    "unit": "breast halves"
+                },
+                {
+                    "name": "1 (17.5 fluid ounce) bottle Buffalo wing sauce, divided",
+                    "main_ingredient": "Buffalo wing sauce",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "bottle"
+                },
+                {
+                    "name": "½ (1 ounce) package dry ranch salad dressing mix",
+                    "main_ingredient": "ranch salad dressing mix",
+                    "classifier": "",
+                    "amount": 0.5,
+                    "unit": "package"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Slow Cooker Buffalo Chicken Sandwiches-1"],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Slow Cooker Buffalo Chicken Sandwiches-3",
+            "name": "Cook chicken in slow cooker",
+            "description": "Cover and cook on Low for 6 to 7 hours.",
+            "time": 360,
+            "hardware": ["slow cooker"],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["Slow Cooker Buffalo Chicken Sandwiches-2"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Slow Cooker Buffalo Chicken Sandwiches-4",
+            "name": "Shred chicken and add butter",
+            "description": "Shred chicken in the cooker with two forks. Stir in butter.",
+            "time": 1,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "2 tablespoons butter",
+                    "main_ingredient": "butter",
+                    "classifier": "",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                }
+            ],
+            "active": 1,
+            "dependency": ["Slow Cooker Buffalo Chicken Sandwiches-3"],
+            "order_id": "4"
+        },
+        {
+            "step_id": "Slow Cooker Buffalo Chicken Sandwiches-5",
+            "name": "Assemble sandwiches",
+            "description": "Pile shredded chicken and sauce onto hoagie rolls. Serve with remaining Buffalo sauce.",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "6 hoagie rolls, split lengthwise",
+                    "main_ingredient": "hoagie rolls",
+                    "classifier": "",
+                    "amount": 6.0,
+                    "unit": ""
+                }
+            ],
+            "active": 1,
+            "dependency": ["Slow Cooker Buffalo Chicken Sandwiches-4"],
+            "order_id": "5"
+        },
+        {
+            "step_id": "Slow Cooker Buffalo Chicken Sandwiches-6",
+            "name": "Serve and Enjoy",
+            "description": "Serve and enjoy!",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [],
+            "active": 0,
+            "dependency": ["Slow Cooker Buffalo Chicken Sandwiches-5"],
+            "order_id": "6"
+        }
+    ],
+    "prepTime": 10,
+    "cookTime": 600,
+    "servings": 6
+}

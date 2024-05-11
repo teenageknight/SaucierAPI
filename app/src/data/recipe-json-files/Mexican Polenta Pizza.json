@@ -1,0 +1,251 @@
+{
+    "name": "Mexican Polenta Pizza",
+    "description": "Mexican Polenta Pizza",
+    "img": "https://www.allrecipes.com/thmb/RTpjyH9lhvJH93rh17WeoU7R3bo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7508449_Mexican-Polenta-Pizza_sanzoe_4x3-c764b0a6abc24ef8bb11372d2e70e0f8.jpg",
+    "nutrients": {
+        "calories": "445 kcal",
+        "carbohydrateContent": "43 g",
+        "cholesterolContent": "64 mg",
+        "fiberContent": "5 g",
+        "proteinContent": "28 g",
+        "saturatedFatContent": "8 g",
+        "sodiumContent": "556 mg",
+        "sugarContent": "16 g",
+        "fatContent": "19 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "ingredients": [
+        {
+            "name": "cornmeal",
+            "main_ingredient": "corn",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "skim milk",
+            "main_ingredient": "milk",
+            "classifier": "skim",
+            "amount": 3.0,
+            "unit": "cups"
+        },
+        {
+            "name": "kosher salt",
+            "main_ingredient": "salt",
+            "classifier": "kosher",
+            "amount": 0.5,
+            "unit": "teaspoon"
+        },
+        {
+            "name": "olive oil",
+            "main_ingredient": "oil",
+            "classifier": "olive",
+            "amount": 1.0,
+            "unit": "tablespoon"
+        },
+        {
+            "name": "lean ground beef",
+            "main_ingredient": "beef",
+            "classifier": "lean",
+            "amount": 5.0,
+            "unit": "ounces"
+        },
+        {
+            "name": "red chile sauce",
+            "main_ingredient": "sauce",
+            "classifier": "red chile",
+            "amount": 1.5,
+            "unit": "cups"
+        },
+        {
+            "name": "Mexican shredded cheese blend",
+            "main_ingredient": "cheese",
+            "classifier": "Mexican shredded blend",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "shredded lettuce",
+            "main_ingredient": "lettuce",
+            "classifier": "shredded",
+            "amount": 1.0,
+            "unit": "cup"
+        },
+        {
+            "name": "tomato",
+            "main_ingredient": "tomato",
+            "classifier": "",
+            "amount": 1.0,
+            "unit": ""
+        },
+        {
+            "name": "black olives",
+            "main_ingredient": "olives",
+            "classifier": "black",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        },
+        {
+            "name": "sour cream",
+            "main_ingredient": "cream",
+            "classifier": "sour",
+            "amount": 2.0,
+            "unit": "tablespoons"
+        }
+    ],
+    "steps": [
+        {
+            "step_id": "Mexican Polenta Pizza-1",
+            "name": "Prepare Polenta Crust",
+            "description": "Stir cornmeal, milk, and salt together in a medium saucepan, cook until thickened, remove from heat and stir in olive oil. Spread on a greased cookie sheet. Cool in the refrigerator for 1 hour.",
+            "time": 900,
+            "hardware": ["saucepan", "cookie sheet", "refrigerator"],
+            "ingredients": [
+                {
+                    "name": "cornmeal",
+                    "main_ingredient": "corn",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "skim milk",
+                    "main_ingredient": "milk",
+                    "classifier": "skim",
+                    "amount": 3.0,
+                    "unit": "cups"
+                },
+                {
+                    "name": "kosher salt",
+                    "main_ingredient": "salt",
+                    "classifier": "kosher",
+                    "amount": 0.5,
+                    "unit": "teaspoon"
+                },
+                {
+                    "name": "olive oil",
+                    "main_ingredient": "oil",
+                    "classifier": "olive",
+                    "amount": 1.0,
+                    "unit": "tablespoon"
+                }
+            ],
+            "active": 0,
+            "dependency": [],
+            "order_id": "1"
+        },
+        {
+            "step_id": "Mexican Polenta Pizza-2",
+            "name": "Preheat Oven",
+            "description": "Preheat the oven to 400 degrees F (200 degrees C).",
+            "time": 0,
+            "hardware": ["oven"],
+            "ingredients": [],
+            "active": 0,
+            "dependency": [],
+            "order_id": "2"
+        },
+        {
+            "step_id": "Mexican Polenta Pizza-3",
+            "name": "Bake Polenta Crust",
+            "description": "Bake polenta crust in the preheated oven for 10 to 15 minutes.",
+            "time": 900,
+            "hardware": ["oven"],
+            "ingredients": [],
+            "active": 1,
+            "dependency": ["Mexican Polenta Pizza-2"],
+            "order_id": "3"
+        },
+        {
+            "step_id": "Mexican Polenta Pizza-4",
+            "name": "Prepare Meat Sauce",
+            "description": "Cook and stir ground beef until browned and crumbly, pour in red chile sauce, and simmer until thickened.",
+            "time": 1200,
+            "hardware": ["skillet"],
+            "ingredients": [
+                {
+                    "name": "lean ground beef",
+                    "main_ingredient": "beef",
+                    "classifier": "lean",
+                    "amount": 5.0,
+                    "unit": "ounces"
+                },
+                {
+                    "name": "red chile sauce",
+                    "main_ingredient": "sauce",
+                    "classifier": "red chile",
+                    "amount": 1.5,
+                    "unit": "cups"
+                }
+            ],
+            "active": 1,
+            "dependency": [],
+            "order_id": "4"
+        },
+        {
+            "step_id": "Mexican Polenta Pizza-5",
+            "name": "Assemble Pizza",
+            "description": "Top polenta crust with meat sauce and cheese. Bake until cheese is melted.",
+            "time": 900,
+            "hardware": ["oven"],
+            "ingredients": [
+                {
+                    "name": "Mexican shredded cheese blend",
+                    "main_ingredient": "cheese",
+                    "classifier": "Mexican shredded blend",
+                    "amount": 1.0,
+                    "unit": "cup"
+                }
+            ],
+            "active": 1,
+            "dependency": [
+                "Mexican Polenta Pizza-3",
+                "Mexican Polenta Pizza-4"
+            ],
+            "order_id": "5"
+        },
+        {
+            "step_id": "Mexican Polenta Pizza-6",
+            "name": "Top and Serve",
+            "description": "Top with lettuce, tomato, black olives, and sour cream. Sprinkle with additional shredded cheese if desired.",
+            "time": 0,
+            "hardware": [],
+            "ingredients": [
+                {
+                    "name": "shredded lettuce",
+                    "main_ingredient": "lettuce",
+                    "classifier": "shredded",
+                    "amount": 1.0,
+                    "unit": "cup"
+                },
+                {
+                    "name": "tomato",
+                    "main_ingredient": "tomato",
+                    "classifier": "",
+                    "amount": 1.0,
+                    "unit": ""
+                },
+                {
+                    "name": "black olives",
+                    "main_ingredient": "olives",
+                    "classifier": "black",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                },
+                {
+                    "name": "sour cream",
+                    "main_ingredient": "cream",
+                    "classifier": "sour",
+                    "amount": 2.0,
+                    "unit": "tablespoons"
+                }
+            ],
+            "active": 0,
+            "dependency": ["Mexican Polenta Pizza-5"],
+            "order_id": "6"
+        }
+    ],
+    "prepTime": 900,
+    "cookTime": 1800,
+    "servings": 4
+}
